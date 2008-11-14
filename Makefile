@@ -6,8 +6,9 @@
 
 site:	index.html software/python/index.html
 
+SITE=webfaction:webapps/djl_static/
 sync: site
-	rsync -av --include-from=rsync_list . /tmp/djl_static/
+	rsync -av --include-from=rsync_list . ${SITE}
 
 .PHONY: clean
 
