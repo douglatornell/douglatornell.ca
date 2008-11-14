@@ -1,5 +1,6 @@
 syntax: glob
 *~
+*.html
 
 syntax: regexp
 (.*/)?\#[^/]*\#$
