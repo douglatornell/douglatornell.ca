@@ -1,0 +1,16 @@
+==================================
+ Doug Latornell's Python Packages
+==================================
+
+nosy_: Nosy-1.0-py2.5.egg
+
+.. _nosy: Nosy-1.0-py2.5.egg
+
+
+..
+   Local Variables:
+   mode: rst
+   mode: auto-fill
+   compile-command: "rst2html index.txt index.html"
+   End:
+
