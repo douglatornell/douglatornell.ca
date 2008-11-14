@@ -1,0 +1,19 @@
+# rsync inclusion list for syncing to douglatornell.ca on webfaction
+
+# Created: 2008-11-13
+
+# Never sync hg repository data, or project build files
+- **.hg**
+- **build**
+- **.egg-info**
+
+# Project code gets synced from projects, not from the clones here
+- **nosy**
+
+# Sync all HTML and eggs in the tree
++ */
++ *.html
++ *.egg
+- *
+
+# end of file
