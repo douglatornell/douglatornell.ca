@@ -2,18 +2,21 @@
 
 # Author: Doug Latornell
 # Created: 2008-05-18
+# Refactored: 2008-11-10
 
-EHOSTING_PATH=douglatornell.ca/www
-NETRC=login.cfg
+site:	index.html software/python/index.html
 
-HTML=index.html
-upload-html:
-	ncftpput -f $(NETRC) $(EHOSTING_PATH) $(HTML)
+sync: site
+	rsync -av --include-from=rsync_list . /tmp/djl_static/
 
-NOSY_PATH=software/python/nosy
-NOSY=$(NOSY_PATH)/index.html $(NOSY_PATH)/nosy.py $(NOSY_PATH)/sample.cfg \
-	$(NOSY_PATH)/Nosy-1.0.tar.gz
-upload-nosy:
-	ncftpput -m -f $(NETRC) $(EHOSTING_PATH)/$(NOSY_PATH) $(NOSY)
+.PHONY: clean
+
+clean:
+	-rm -f index.html
+	-rm -f software/python/index.html
+
+.SUFFIXES: .txt .html
+.txt.html:
+	rst2html ${.ALLSRC} ${.TARGET}
 
 # end of file
