@@ -18,6 +18,6 @@ clean:
 
 .SUFFIXES: .txt .html
 .txt.html:
-	rst2html ${.ALLSRC} ${.TARGET}
+	rst2html.py $< $@
 
 # end of file
