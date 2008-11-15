@@ -8,12 +8,12 @@ British Columbia.
 
 I'm a marathon cyclist with the `BC Randonneurs Cycling Club`_ and in
 2003 I became an *ancien* of `Paris-Brest-Paris`_.  I was event
-director for the 2004 `Rocky Mtn 1200`_ and I rode the Rocky this
-year.
+director for the 2004 `Rocky Mtn 1200`_ and I `rode the Rocky`_ in 2008.
 
 .. _BC Randonneurs Cycling Club: http://randonneurs.bc.ca
 .. _Paris-Brest-Paris: http://www.paris-brest-paris.org/EN/
 .. _Rocky Mtn 1200: http://randonneurs.bc.ca/rocky/rm1200.html
+.. _rode the Rocky: http://www.flickr.com/photos/bcrandonneurs/2725459921/in/set-72157606507546843/
 
 I work for `MDS Nordion`_ where I manage projects, do mechanical
 design, model isotope production processes using `SciPy`_, and create
