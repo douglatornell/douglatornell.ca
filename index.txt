@@ -56,6 +56,14 @@ elegant.
 .. _OpenBSD: http://www.openbsd.org/
 .. _so much fun: http://xkcd.com/353/
 
+Other things the might be of interest on this site:
+
+* `Slides from my recap of PyCon 2009`_ for the April 2009 VanPyZ_
+  meeting.
+
+.. _Slides from my recap of PyCon 2009: talks/PyCon2009VanPyZ/slides.html
+.. _VanPyZ: http://www.vanpyz.org/
+
 -----------------------------------------------------------------------------
 
 ..
