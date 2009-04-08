@@ -1,0 +1,20 @@
+=======
+ Talks
+=======
+
+* Brett Cannon and I did a PyCon 2009 Trip Report for the April 2009
+  VanPyZ_ meeting.  Brett elaborated on `his PyCon blog post`_, and I
+  spoke to `a few slides I whipped up`_.
+
+.. _VanPyZ: http://www.vanpyz.org/
+.. _his PyCon blog post: http://sayspy.blogspot.com/2009/04/pycon-2009-recap-best-pycon-ever.html
+.. _a few slides I whipped up: slides.html
+
+-----------------------------------------------------------------------------
+
+..
+   Local Variables:
+   mode: rst
+   mode: auto-fill
+   compile-command: "rst2html index.txt index.html"
+   End:

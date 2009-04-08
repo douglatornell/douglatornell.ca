@@ -14,6 +14,11 @@
 + */
 + *.html
 + *.egg
+
+# Sync s5 UIs for slides
++ talks/**/ui/**
+
+# Ignore everything else
 - *
 
 # end of file
