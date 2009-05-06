@@ -10,10 +10,10 @@
 # Project code gets synced from projects, not from the clones here
 - **nosy**
 
-# Sync all HTML and eggs in the tree
+# Sync all HTML and tarballs in the tree
 + */
 + *.html
-+ *.egg
++ *.tar.gz
 
 # Sync s5 UIs for slides
 + talks/**/ui/**

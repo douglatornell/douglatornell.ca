@@ -2,9 +2,9 @@
  Doug Latornell's Python Packages
 ==================================
 
-nosy_: Nosy-1.0-py2.5.egg
+nosy_: Nosy-1.0.tar.gz
 
-.. _nosy: Nosy-1.0-py2.5.egg
+.. _nosy: Nosy-1.0.tar.gz
 
 
 ..

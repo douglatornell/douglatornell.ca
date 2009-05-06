@@ -12,8 +12,8 @@ PyCon2009VanPyZ:	talks/PyCon2009VanPyZ/slides.txt
 
 SITE=webfaction:webapps/djl_static/
 # SITE=webfaction:webapps/testbed_static/
-sync: site
-	rsync -av --include-from=rsync_list . ${SITE}
+rsync: site
+	rsync -av --delete --include-from=rsync_list . ${SITE}
 
 .PHONY: clean
 
