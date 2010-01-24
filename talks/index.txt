@@ -8,7 +8,14 @@
 
 .. _VanPyZ: http://www.vanpyz.org/
 .. _his PyCon blog post: http://sayspy.blogspot.com/2009/04/pycon-2009-recap-best-pycon-ever.html
-.. _a few slides I whipped up: slides.html
+.. _a few slides I whipped up: PyCon 2009VanPyZ/slides.html
+
+* I talked about PyYAML_, flickrapi_, and TkInter_ in the context of my (as yet unreleased) LivingPics desktop image display app at the December 2009 VanPyZ_ meeting. Here is a `PDF of the slide deck`_.
+
+.. _PyYAML: http://pypi.python.org/pypi/PyYAML/
+.. _flickrapi: http://pypi.python.org/pypi/flickrapi
+.. _TkInter: http://docs.python.org/library/tk.html
+.. _`PDF of the slide deck`: LivingPicsVanPyZ/LivingPicsVanPyZ.pdf
 
 -----------------------------------------------------------------------------
 

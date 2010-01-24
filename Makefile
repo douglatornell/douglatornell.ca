@@ -5,7 +5,8 @@
 # Refactored: 2008-11-10
 
 site:	index.html software/python/index.html \
-	talks/PyCon2009VanPyZ/index.html PyCon2009VanPyZ
+	talks/index.html \
+	PyCon2009VanPyZ
 
 PyCon2009VanPyZ:	talks/PyCon2009VanPyZ/slides.txt
 	rst2s5.py $< $(<D)/$(<F:.txt=.html)

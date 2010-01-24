@@ -18,6 +18,9 @@
 # Sync s5 UIs for slides
 + talks/**/ui/**
 
+# Sync PDFs of talk slides
++ talks/**/*.pdf
+
 # Ignore everything else
 - *
 

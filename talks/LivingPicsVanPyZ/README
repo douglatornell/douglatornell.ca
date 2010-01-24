@@ -1,0 +1,16 @@
+============================================
+ VanPyZ Talk PyYAML, flickrapi, and TkInter
+============================================
+
+This is the development directory for a talk I gave at the VanPyZ
+meeting on 1-Dec-2009.
+
+* The talk slides are in ``LivingPicsVanPyZ.odp`` which was exported as
+  ``LivingPicsVanPyZ.pdf`` for uploading to the web.
+
+* ``lyt-movwaves.odp`` is the presentation theme.
+
+* The code snippets included in the presentation were produced by
+  running ``rst2odp`` on ``code-slides.rst`` to get Pygments
+  highlighted code. The results were copy-pasted into the talk slide
+  deck. Use the ``rst2odp`` virtualenv.
