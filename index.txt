@@ -61,7 +61,10 @@ Other things the might be of interest on this site:
 * `Slides from my recap of PyCon 2009`_ for the April 2009 VanPyZ_
   meeting.
 
+* `Slides from a talk about PyYAML, flickrapi, and TkInter`_ that I gave at the December 2009 VanPyZ_ meeting.
+
 .. _Slides from my recap of PyCon 2009: talks/PyCon2009VanPyZ/slides.html
+.. _Slides from a talk about PyYAML, flickrapi, and TkInter: talks/LivingPicsVanPyZ/LivingPicsVanPyZ.pdf
 .. _VanPyZ: http://www.vanpyz.org/
 
 -----------------------------------------------------------------------------
