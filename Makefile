@@ -6,17 +6,23 @@
 
 site:	index.html software/python/index.html \
 	talks/index.html \
-	PyCon2009VanPyZ
+	PyCon2009VanPyZ \
+	nosy
 
 PyCon2009VanPyZ:	talks/PyCon2009VanPyZ/slides.txt
 	rst2s5.py $< $(<D)/$(<F:.txt=.html)
+
+nosy:
+	(cd software/python/Nosy && \
+	hg pull --update && \
+	make)
 
 SITE=webfaction:webapps/djl_static/
 # SITE=webfaction:webapps/testbed_static/
 rsync: site
 	rsync -av --delete --include-from=rsync_list . ${SITE}
 
-.PHONY: clean
+.PHONY: clean nosy
 
 clean:
 	-rm -f index.html
