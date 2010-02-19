@@ -7,7 +7,7 @@
 - **build**
 - **.egg-info**
 
-# Project code gets synced from projects, not from the clones here
+# Don't sync project source files
 - **nosy**
 
 # Sync all HTML and tarballs in the tree

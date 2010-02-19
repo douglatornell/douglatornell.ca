@@ -20,7 +20,7 @@ nosy:
 SITE=webfaction:webapps/djl_static/
 # SITE=webfaction:webapps/testbed_static/
 rsync: site
-	rsync -av --delete --include-from=rsync_list . ${SITE}
+	rsync -ahv --delete --include-from=rsync_list . ${SITE}
 
 .PHONY: clean nosy
 
