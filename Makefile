@@ -9,6 +9,10 @@ site:	index.html software/python/index.html \
 	PyCon2009VanPyZ \
 	nosy
 
+index.html:	index.txt
+	rst2html.py index.txt index.html
+	python add_openid.py < index.html > tmp.html; mv tmp.html index.html
+
 PyCon2009VanPyZ:	talks/PyCon2009VanPyZ/slides.txt
 	rst2s5.py $< $(<D)/$(<F:.txt=.html)
 
