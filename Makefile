@@ -4,13 +4,14 @@
 # Created: 2008-05-18
 # Refactored: 2008-11-10
 
-site:	index.html software/python/index.html \
+site:	index.html \
 	talks/index.html \
 	PyCon2009VanPyZ \
+	software/python/index.html \
 	nosy
 
-index.html:	index.txt html4css1.css index.css
-	rst2html.py --link-stylesheet --stylesheet=html4css1.css,index.css \
+index.html:	index.txt html4css1.css site.css
+	rst2html.py --link-stylesheet --stylesheet=html4css1.css,site.css \
 		--generator --date \
 		index.txt index.html
 	python add_openid.py < index.html > tmp.html; mv tmp.html index.html
@@ -36,6 +37,7 @@ clean:
 
 .SUFFIXES: .txt .html
 .txt.html:
-	rst2html.py $< $@
+	rst2html.py --link-stylesheet --stylesheet=html4css1.css,site.css \
+		--generator --date $< $@
 
 # end of file
