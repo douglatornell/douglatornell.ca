@@ -20,13 +20,14 @@ design, model isotope production processes using `SciPy`_, and create
 database-driven web applications for monitoring and analyzing
 production process data.  I started out using `PHP`_ for those
 projects, but more recently have been using `Python`_ and
-`TurboGears`_.
+`TurboGears`_ or Pylons_.
 
 .. _MDS Nordion: http://www.mds.nordion.com/
 .. _SciPy: http://www.scipy.org/
 .. _PHP: http://www.php.net/
 .. _Python: http://www.python.org/
 .. _TurboGears: http://turbogears.org/
+.. _Pylons: http://pylonshq.com/
 
 In 2006 I spent 6 months on sabbatical with my
 physicist/mathematician/oceanographer wife, `Dr. Susan Allen`_, living
@@ -40,21 +41,23 @@ living in Brittany.  We blogged about the experience at
 .. _sadahome.ca/blogs/paradocs.php: http://sadahome.ca/blogs/paradocs.php
 
 These days, I blog (but not very often)
-at `sadahome.ca/blogs/adventures.php`_
-and post images (also too infrequently)
-at `flickr.com/photos/sada_images/`_.
+at `sadahome.ca/blogs/adventures.php`_ and `sadahome.ca/blogs/doug.php`_
+and post images at `flickr.com/photos/sada_images/`_.
 
-.. _sadahome.ca/blogs/adventures.php: http://sadahome.ca/blogs/adventures.php
+.. _sadahome.ca/blogs/adventures.php: http://sadahome.ca/blogs/adventures.php 
+.. _sadahome.ca/blogs/doug.php: http://sadahome.ca/blogs/doug.php
 .. _flickr.com/photos/sada_images/: http://www.flickr.com/photos/sada_images/
 
 At home, I manage our network of `OpenBSD`_ and Mac computers, try to
 stay on top of maintenance and wheelbuilding for our fleet of
-bicycles, and cook *way* too infrequently.  I also hack on a variety
-of personal projects in Python 'cause it's `so much fun`_ and so
-elegant.
+bicycles, and cook (a lot more frequently since we `renovated our
+kitchen`_).  I also hack on a variety of personal projects in Python
+'cause it's `so much fun`_ and `so elegant`_.
 
 .. _OpenBSD: http://www.openbsd.org/
 .. _so much fun: http://xkcd.com/353/
+.. _renovated our kitchen: http://www.flickr.com/photos/sada_images/sets/72157618929678421/
+.. _so elegant: http://www.python.org/dev/peps/pep-0020/
 
 Other things the might be of interest on this site:
 
@@ -67,7 +70,6 @@ Other things the might be of interest on this site:
 .. _Slides from a talk about PyYAML, flickrapi, and TkInter: talks/LivingPicsVanPyZ/LivingPicsVanPyZ.pdf
 .. _VanPyZ: http://www.vanpyz.org/
 
------------------------------------------------------------------------------
 
 ..
    Local Variables:
