@@ -9,8 +9,10 @@ site:	index.html software/python/index.html \
 	PyCon2009VanPyZ \
 	nosy
 
-index.html:	index.txt
-	rst2html.py index.txt index.html
+index.html:	index.txt html4css1.css index.css
+	rst2html.py --link-stylesheet --stylesheet=html4css1.css,index.css \
+		--generator --date \
+		index.txt index.html
 	python add_openid.py < index.html > tmp.html; mv tmp.html index.html
 
 PyCon2009VanPyZ:	talks/PyCon2009VanPyZ/slides.txt
