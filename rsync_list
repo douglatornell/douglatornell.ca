@@ -10,9 +10,10 @@
 # Don't sync project source files
 - **nosy**
 
-# Sync all HTML and tarballs in the tree
+# Sync all HTML, CSS, and tarballs in the tree
 + */
 + *.html
++ *.css
 + *.tar.gz
 
 # Sync s5 UIs for slides
