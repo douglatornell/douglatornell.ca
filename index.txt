@@ -75,5 +75,4 @@ Other things the might be of interest on this site:
    Local Variables:
    mode: rst
    mode: auto-fill
-   compile-command: "rst2html index.txt index.html"
    End:
