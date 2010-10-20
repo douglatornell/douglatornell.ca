@@ -16,6 +16,11 @@ index.html:	index.txt html4css1.css site.css
 		index.txt index.html
 	python add_openid.py < index.html > tmp.html; mv tmp.html index.html
 
+talks/index.html:	talks/index.txt html4css1.css site.css
+	rst2html.py --link-stylesheet --stylesheet=../html4css1.css,../site.css \
+		--generator --date \
+		talks/index.txt talks/index.html
+
 PyCon2009VanPyZ:	talks/PyCon2009VanPyZ/slides.txt
 	rst2s5.py $< $(<D)/$(<F:.txt=.html)
 
@@ -37,7 +42,7 @@ clean:
 
 .SUFFIXES: .txt .html
 .txt.html:
-	rst2html.py --link-stylesheet --stylesheet=html4css1.css,site.css \
+	rst2html.py --link-stylesheet --stylesheet=../html4css1.css,../site.css \
 		--generator --date $< $@
 
 # end of file
