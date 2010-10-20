@@ -1,5 +1,5 @@
 /*
-Styles for Chilcotin Loop Cycle Tour 2010 travel story page on sadahome.ca
+Site-wide styles for douglatornell.ca
 */
 body {
     width: 800px;
@@ -10,4 +10,13 @@ a:link, a:visited {
 }
 a:hover {
     text-decoration: underline;
+}
+
+h1.title {
+    text-align: left;
+    font-family: sans-serif;
+}
+
+div.footer {
+    font-family: sans-serif;
 }
