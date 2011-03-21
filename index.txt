@@ -15,19 +15,22 @@ director for the 2004 `Rocky Mtn 1200`_ and I `rode the Rocky`_ in 2008.
 .. _Rocky Mtn 1200: http://randonneurs.bc.ca/rocky/rm1200.html
 .. _rode the Rocky: http://www.flickr.com/photos/bcrandonneurs/2725459921/in/set-72157606507546843/
 
-I work for `MDS Nordion`_ where I manage projects, do mechanical
-design, model isotope production processes using `SciPy`_, and create
+I work for `Nordion`_ where I manage projects, do mechanical design,
+model radio-isotope production processes using `SciPy`_, and create
 database-driven web applications for monitoring and analyzing
 production process data.  I started out using `PHP`_ for those
 projects, but more recently have been using `Python`_ and
-`TurboGears`_ or Pylons_.
+`TurboGears`_ or Pylons_. My current project is a Quality Management
+System web application that uses Pylons_ with CouchDB_ providing the
+data storage layer.
 
-.. _MDS Nordion: http://www.mds.nordion.com/
+.. _Nordion: http://nordion.com/
 .. _SciPy: http://www.scipy.org/
 .. _PHP: http://www.php.net/
 .. _Python: http://www.python.org/
 .. _TurboGears: http://turbogears.org/
 .. _Pylons: http://pylonshq.com/
+.. _CouchDB: http://couchdb.apache.org/
 
 In 2006 I spent 6 months on sabbatical with my
 physicist/mathematician/oceanographer wife, `Dr. Susan Allen`_, living
@@ -61,18 +64,13 @@ kitchen`_).  I also hack on a variety of personal projects in Python
 
 Other things the might be of interest on this site (and beyond):
 
-* `Slides from a seminar about Version Control`_ that I gave to the
-  UBC Physical Oceanography Group in October 2010.
+* Some details about the `software projects`_, both open-source and
+  proprietary that I have authored and contributed to.
 
-* `Slides from a talk about PyYAML, flickrapi, and TkInter`_ that I gave at the December 2009 VanPyZ_ meeting. 
+* Slides from `some talks`_ that I have given.
 
-* `Slides from my recap of PyCon 2009`_ for the April 2009 VanPyZ_
-  meeting.
-
-.. _Slides from a seminar about Version Control: https://docs.google.com/present/view?id=dc7bfwc4_50dsrmxb83
-.. _Slides from a talk about PyYAML, flickrapi, and TkInter: talks/LivingPicsVanPyZ/LivingPicsVanPyZ.pdf
-.. _Slides from my recap of PyCon 2009: talks/PyCon2009VanPyZ/slides.html
-.. _VanPyZ: http://www.vanpyz.org/
+.. _software projects: projects.html
+.. _some talks: talks/index.html
 
 
 ..

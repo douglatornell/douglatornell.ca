@@ -5,6 +5,7 @@
 # Refactored: 2008-11-10
 
 site:	index.html \
+	projects.html \
 	talks/index.html \
 	PyCon2009VanPyZ \
 	software/python/index.html \
@@ -42,7 +43,7 @@ clean:
 
 .SUFFIXES: .txt .html
 .txt.html:
-	rst2html.py --link-stylesheet --stylesheet=../html4css1.css,../site.css \
+	rst2html.py --link-stylesheet --stylesheet=html4css1.css,site.css \
 		--generator --date $< $@
 
 # end of file
