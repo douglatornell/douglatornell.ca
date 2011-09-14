@@ -5,10 +5,12 @@
 * nosy_: Nosy-1.0.tar.gz
 * nosy-1.0_: Nosy-1.0.tar.gz
 * nosy-1.1_: nosy-1.1.tar.gz
+* nosy-1.1.1_: nosy-1.1.1.tar.gz
 
 .. _nosy: Nosy-1.0.tar.gz
 .. _nosy-1.0: Nosy-1.0.tar.gz
 .. _nosy-1.1: nosy-1.1.tar.gz
+.. _nosy-1.1.1: nosy-1.1.1.tar.gz
 
 
 ..
