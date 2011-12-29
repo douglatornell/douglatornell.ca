@@ -1,7 +1,6 @@
 syntax: glob
 *~
-*.html
-talks/PyCon2009VanPyZ/ui/*
+_site/
 
 syntax: regexp
 (.*/)?\#[^/]*\#$
