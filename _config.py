@@ -26,6 +26,11 @@ site.url = "http://douglatornell.ca"
 # simple_blog template creates a meta tag for the site author.
 site.author = "Doug Latornell"
 
+site.file_ignore_patterns.append(
+    # Mercurial tags file
+    ".*/.hgtags",
+)
+
 #### Blog Settings ####
 blog = plugins.blog
 
