@@ -1,0 +1,116 @@
+---
+title: 2012 Python Meme
+permalink: http://douglatornell.ca/blog/2011/12/30/2012-python-meme
+date: 2011/12/30 14:49:46
+categories: python
+guid: b'wPnO6TzQFuugJbwepxKZ8ml-xjI='
+---
+
+Following `Tarek Ziade's lead`_:
+
+.. _Tarek Ziade's lead: http://tarekziade.wordpress.com/2011/12/20/new-years-python-meme-2/
+
+1. **What’s the coolest Python application, framework or library you
+   have discovered in 2011?**
+
+   It's a toss-up between Pyramid_ and requests_.
+
+   .. _Pyramid: http://docs.pylonsproject.org/en/latest/docs/pyramid.html
+   .. _requests: http://docs.python-requests.org/en/latest/index.html
+
+   For the admittedly small, specialized application that I've used
+   Pyramid for, I like how the framework interface is largely confined
+   to the ``__init__.py`` module. Outside of that I find myself just
+   writing Python code to get stuff done and throwing in a few
+   decorators here and there to link into the framework. I find the
+   Pyramid docs to be really well organized, informative, and
+   complete. They worked for me at the introductory level (though I
+   did arrive with quite a bit of experience of other Python web
+   frameworks) and continue to work as I dig deeper and do more
+   advanced things.
+
+   Requests has made my life so much better in several projects,
+   whether its collecting data from well structured web services or
+   scraping hydrometric data from a particularly annoying Government
+   of Canada site.
+
+
+2. **What new programming technique did you learn in 2011?**
+
+   I got a lot better at writing simple, clean, uncoupled unit tests,
+   inspired in large part by the `Pyramid unit testing guidelines`_. I
+   shifted from being a skeptic to a proponent of mocking thanks to
+   the mock_ library. I was spurred in that by the need to refactor a
+   test suite that had become way too slow to be useful.
+
+   .. _Pyramid unit testing guidelines: http://docs.pylonsproject.org/en/latest/community/testing.html
+   .. _mock: http://www.voidspace.org.uk/python/mock/
+
+   I also got a lot more proficient in JavaScript, using it for
+   client-side stuff in web apps, database views for CouchDB, and a
+   Firefox add-on.
+
+
+3. **What’s the name of the open source project you contributed the
+   most in 2011? What did you do?**
+
+   CouchDBkit_. I spent most of my time at the PyCon 2011 sprints
+   adding the ``SetProperty`` and ``LazySet`` class to store Python
+   sets as lists of unique elements in CouchDB. I also added some
+   missing Python list methods to the ``LazyList`` class. It was a
+   good learning experience in the realm of subclassing Python
+   builtins. It was also cool to work sitting beside `@benoitc`_ (the
+   CouchDBkit lead developer) in contrast to communicating
+   electronically across 9 time zones.
+
+   .. _CouchDBkit: http://couchdbkit.org/
+   .. _@benoitc: http://twitter.com/#!/benoitc
+
+
+4. **What was the Python blog or website you read the most in 2011?**
+
+   The `Planet Python`_ feed, by far.
+
+   .. _Planet Python: http://planet.python.org/
+
+
+5. **What are the three top things you want to learn in 2012?**
+
+   * Message passing systems. I've got a Django project that needs to
+     get some asynchronicity and I'm planning to explore Celery_ for
+     that.
+
+     .. _Celery: http://celeryproject.org/
+
+   * More message passing systems. I've got some devops issues around
+     server synchronization and failover that I think I might be able
+     to address with ZeroMQ_.
+
+     .. _ZeroMQ: http://www.zeromq.org/
+
+   * Python 3. Because it's time! Most of the libraries that I use
+     have already been ported, so the transition shouldn't be
+     overwhelmingly difficult, and perhaps I can lend a hand porting
+     some of the libraries that I need that haven't made the jump yet.
+
+
+6. **What are the top software, app or lib you wish someone would
+   write in 2012?**
+
+   I wish there were more open source libraries and applications in
+   the home automation realm. One of my first personal Python projects
+   was a wrapper around heyu_ to make our house look lived in when we
+   are away. It's still working okay after nearly 6 years, but the X10
+   hardware it interfaces with is getting rather long in the
+   tooth. Sadly, newer home automation hardware and protocols seem to
+   be mired in the muck of "vendor associations" that only pay lip
+   service to openness.
+
+   .. _heyu: http://www.heyu.org/
+
+Want to do your own list ? here’s how:
+
+* copy-paste the questions and answer to them in your blog
+* tweet it with the `#2012pythonmeme`_ hashtag
+
+.. _#2012pythonmeme: http://twitter.com/#!/search/%232012pythonmeme
