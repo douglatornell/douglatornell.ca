@@ -94,9 +94,16 @@ title font to something that looks less like Comic Sans.
 Things That Still Need to be Done
 ---------------------------------
 
-* Automate the process of pushing new content to Webfaction_
-  `(affiliate link)`_, either via a `Mercurial hook`_, or a Fabric_
-  task, in contrast to the manual rsync command I'm using now
+.. role:: strikethrough
+   :class: strikethrough
+
+*Updated 2011-12-29 20:52:51*
+
+* :strikethrough:`Automate the process of pushing new content to
+  Webfaction (affiliate link), either via a Mercurial hook, or a
+  Fabric task, in contrast to the manual rsync command I'm using now`
+  Getting a `Mercurial hook`_ working turned out to be pretty easy.
+
 * Use Disqus for comments
 * Migrate at least the Python-related content from sadahome.ca/blogs/doug.php
 * Convert the Nosy_ docs to Sphinx_ and move them to `Read the Docs`_
