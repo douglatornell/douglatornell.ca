@@ -81,12 +81,12 @@ A Whole New Site, Actually
 
 Blogofile is more than a blogging tool though; it's a static site
 builder. So, I took the opportunity to add some structure and style to
-the whole `douglatornell.ca` site. Migrating the content was easy,
+the whole ``douglatornell.ca`` site. Migrating the content was easy,
 largely because it was already all in reStructuredText markup. The
 biggest time-sink was my attempt to create a new theme with a
-different colour scheme. Once again I was reminded at how badly I
-suck at the design aspect of web development. I settled for changing
-the title font to something that looks less like Comic Sans.
+different colour scheme. Once again I was reminded at how badly I suck
+at the design aspect of web development. I settled for changing the
+title font to something that looks less like Comic Sans.
 
 .. _douglatornell.ca: http://douglatornell.ca
 
