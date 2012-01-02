@@ -25,6 +25,12 @@ reports, etc.):
 .. _virtualenvwrapper: http://www.doughellmann.com/projects/virtualenvwrapper/
 .. _webtest: http://pythonpaste.org/webtest/
 
+.. image:: https://www.ohloh.net/accounts/147609/widgets/account_tiny.gif
+   :height: 15px
+   :width: 80px
+   :alt: Ohloh profile for dlatornell
+   :target: https://www.ohloh.net/accounts/147609?ref=Tiny
+
 
 Personal Projects That I Have Released
 ======================================
