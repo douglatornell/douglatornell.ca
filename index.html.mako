@@ -3,26 +3,32 @@
 <%self:filter chain="rst">
 
 I live in Vancouver, British Columbia, Canada.  I'm a mechanical
-engineer, educated at Queen's University, and the University of
-British Columbia.
+engineer, educated at `Queen's University`_, and the `University of
+British Columbia`_.
+
+.. _Queen's University: http://me.queensu.ca/
+.. _University of British Columbia: http://mech.ubc.ca/
 
 I'm a marathon cyclist with the `BC Randonneurs Cycling Club`_ and in
 2003 I became an *ancien* of `Paris-Brest-Paris`_.  I was event
 director for the 2004 `Rocky Mtn 1200`_ and I `rode the Rocky`_ in 2008.
 
-.. _BC Randonneurs Cycling Club: http://randonneurs.bc.ca
+.. _BC Randonneurs Cycling Club: http://randonneurs.bc.ca/
 .. _Paris-Brest-Paris: http://www.paris-brest-paris.org/EN/
-.. _Rocky Mtn 1200: http://randonneurs.bc.ca/rocky/rm1200.html
+.. _Rocky Mtn 1200: http://randonneurs.bc.ca/rockymountain1200/
 .. _rode the Rocky: http://www.flickr.com/photos/bcrandonneurs/2725459921/in/set-72157606507546843/
 
 I work for `Nordion`_ where I manage projects, do mechanical design,
 model radio-isotope production processes using `SciPy`_, and create
 database-driven web applications for monitoring and analyzing
 production process data.  I started out using `PHP`_ for those
-projects, but more recently have been using `Python`_ and
-`TurboGears`_ or Pylons_. My current project is a Quality Management
-System web application that uses Pylons_ with CouchDB_ providing the
-data storage layer.
+projects, but more recently have been using `Python`_ and a succession
+of web frameworks (`TurboGears`_, Pylons_, Pyramid_, ...). My current
+project is a radio-isotope production process model integrated with a
+process data logging system to predict theoretical isotope activity
+for yield calculations based on actual irradiation conditions. Please
+have a look at my projects_ page for more detailed descriptions of
+that project and others.
 
 .. _Nordion: http://nordion.com/
 .. _SciPy: http://www.scipy.org/
@@ -30,7 +36,8 @@ data storage layer.
 .. _Python: http://www.python.org/
 .. _TurboGears: http://turbogears.org/
 .. _Pylons: http://pylonshq.com/
-.. _CouchDB: http://couchdb.apache.org/
+.. _Pyramid: http://docs.pylonsproject.org/en/latest/docs/pyramid.html
+.. _projects: projects/
 
 In 2006 I spent 6 months on sabbatical with my
 physicist/mathematician/oceanographer wife, `Dr. Susan Allen`_, living
@@ -43,12 +50,15 @@ living in Brittany.  We blogged about the experience at
 .. _biophysical model of the Strait of Georgia: http://www.stratogem.ubc.ca/
 .. _sadahome.ca/blogs/paradocs.php: http://sadahome.ca/blogs/paradocs.php
 
-These days, I blog (but not very often)
-at `sadahome.ca/blogs/adventures.php`_ and `sadahome.ca/blogs/doug.php`_
-and post images at `flickr.com/photos/sada_images/`_.
+These days, I blog about technical stuff (mostly Python-related) on
+`this site`_, and about food and life in general at
+`sadahome.ca/blogs/adventures.php`_. I also try to photograph
+beautiful and interesting things, as well as keeping an image record
+of our travels. I post the images at
+`flickr.com/photos/sada_images/`_.
 
+.. _this site: blog/
 .. _sadahome.ca/blogs/adventures.php: http://sadahome.ca/blogs/adventures.php
-.. _sadahome.ca/blogs/doug.php: http://sadahome.ca/blogs/doug.php
 .. _flickr.com/photos/sada_images/: http://www.flickr.com/photos/sada_images/
 
 At home, I manage our network of `OpenBSD`_ and Mac computers, try to
