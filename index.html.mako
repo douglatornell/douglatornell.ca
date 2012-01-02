@@ -79,6 +79,13 @@ Other things the might be of interest on this site (and beyond):
 
 * Slides from `some talks`_ that I have given.
 
+You can contact me by email using ``djl`` ``douglatornell`` and
+``ca``, with the appropriate punctuation. On Twiter I'm `@dlatornell`_
+and I also use `Google+`_.
+
+.. _@dlatornell: http://twitter.com/#!/dlatornell
+.. _Google+: https://profiles.google.com/djlatornell/
+
 .. _software projects: projects/
 .. _some talks: talks/
 
