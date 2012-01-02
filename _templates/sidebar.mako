@@ -24,7 +24,7 @@
                 </a>
               </td>
               <td id="flickr_badge_source_txt">
-                <nobr>Go to</nobr> <a href="http://www.flickr.com/photos/sada_images/">Susan &amp; Doug's Adventures' photostream</a>
+                <span class="nobr">Go to</span> <a href="http://www.flickr.com/photos/sada_images/">Susan &amp; Doug's Adventures' photostream</a>
               </td>
             </tr>
           </table>

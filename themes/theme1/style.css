@@ -400,6 +400,9 @@ aside li {
     font: 11px Arial, Helvetica, Sans serif !important;
     color:#000000 !important;
 }
+.nobr {
+    white-space: nowrap;
+}
 
 /****************************/
 /* Non-blog pages */
