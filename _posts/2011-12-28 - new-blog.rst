@@ -1,7 +1,7 @@
 ---
 title: New Blog for Christmas
 date: 2011/12/28 17:19:47
-updated: 2012/01/02 10:18:37
+updated: 2012/01/02 16:21:32
 categories: Blog Maintenance, Python
 ---
 I decided to give myself a new blog for Christmas. All of my_ other_
@@ -105,7 +105,10 @@ Things That Still Need to be Done
   Fabric task, in contrast to the manual rsync command I'm using now`
   Getting a `Mercurial hook`_ working turned out to be pretty easy.
 
-* Use Disqus for comments
+*Updated 2012-01-02 16:21:32*
+
+* :strikethrough:`Use Disqus for comments` Incredibly easy!
+
 * Migrate at least the Python-related content from sadahome.ca/blogs/doug.php
 * Convert the Nosy_ docs to Sphinx_ and move them to `Read the Docs`_
 
