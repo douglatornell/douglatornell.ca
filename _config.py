@@ -60,3 +60,6 @@ blog.description = ""
 
 ## blog_timezone -- the timezone that you normally write your blog posts from
 blog.timezone = "Canada/Pacific"
+
+blog.disqus.enabled = True
+blog.disqus.name = "douglatornell"
