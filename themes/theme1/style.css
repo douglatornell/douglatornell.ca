@@ -299,6 +299,9 @@ div#credits p {
     border-right: 1px solid #aaa;
     background: #e3e3e3;
 }
+.post_body h2 {
+    font-size: 1.2em;
+}
 .post_prose {
     margin-left: 10px;
 }
