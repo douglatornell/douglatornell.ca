@@ -9,6 +9,7 @@
 
   <link rel="stylesheet" href="${bf.util.site_path_helper('css/grid.css?v=1')}">
   <link rel="stylesheet" media="handheld" href="${bf.util.site_path_helper('/css/handheld.css?v=1')}">
+  <link rel="stylesheet" href="${bf.util.site_path_helper('css/pygments_'+bf.config.filters.syntax_highlight.style+'.css')}" type="text/css" />
 
   <link rel="openid2.provider" href="https://www.google.com/accounts/o8/ud?source=profiles" />
   <link rel="openid2.local_id" href="http://www.google.com/profiles/djlatornell" />

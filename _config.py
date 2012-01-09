@@ -63,3 +63,8 @@ blog.timezone = "Canada/Pacific"
 
 blog.disqus.enabled = True
 blog.disqus.name = "douglatornell"
+
+blog.post.default_filters = {
+    "rst": "rst, syntax_highlight"
+}
+filters.syntax_highlight.style = "default"
