@@ -17,3 +17,6 @@ Ideas for Future Posts
 * A blogofile rst filter that handles `code` directives.
 
 * Migration of posts from b2evolution to blogofile.
+
+* Add a markup format option to `blogofile blog post create` so that
+  it can create something other than .markdown files.
