@@ -10,6 +10,7 @@ Open source projects that I have contributed to (patches, docs, bug
 reports, etc.):
 
 * buildbot_
+* contextlib2_
 * couchdbkit_
 * `Python Documentation`_
 * sphinx_
@@ -18,6 +19,7 @@ reports, etc.):
 * webtest_
 
 .. _buildbot: http://buildbot.net/
+.. _contextlib2: http://contextlib2.readthedocs.org/
 .. _couchdbkit: http://couchdbkit.org/
 .. _Python Documentation: http://python.org/
 .. _sphinx: http://sphinx.pocoo.org/
