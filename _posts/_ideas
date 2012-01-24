@@ -1,11 +1,6 @@
 Ideas for Future Posts
 ======================
 
-* Silent failure of Django test fixtures when PyYAML isn't
-  installed. Avoid the pain by using a pip requirements file, and
-  explicitly specifying the serialization method for the fixtures with
-  a file extension.
-
 * Database table reflection into SQLAlchemy objects in Pyramid based
   on discussion with Jonathan Vanasco on pylons-discuss list and in
   https://gist.github.com/1556734
