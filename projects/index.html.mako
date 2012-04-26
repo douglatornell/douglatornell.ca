@@ -12,6 +12,7 @@ reports, etc.):
 * buildbot_
 * contextlib2_
 * couchdbkit_
+* `Pyramid Documentation`_
 * `Python Documentation`_
 * sphinx_
 * `turbogears 2`_
@@ -21,6 +22,7 @@ reports, etc.):
 .. _buildbot: http://buildbot.net/
 .. _contextlib2: http://contextlib2.readthedocs.org/
 .. _couchdbkit: http://couchdbkit.org/
+.. _Pyramid Documentation: 
 .. _Python Documentation: http://python.org/
 .. _sphinx: http://sphinx.pocoo.org/
 .. _turbogears 2: http://turbogears.org/2.0/
@@ -55,27 +57,84 @@ SOG Coupled Biology & Physics Model of Deep Estuaries
 =====================================================
 
 SOG is a research model developed by `Dr. Susan Allen's`_ coastal
-oceanography group in the Department of Earth and Ocean Sciences at
-the University of British Columbia. If you are interested in the model
-check out Susan's publications, and if you are interested in
-collaborating on the code, contact Susan and maybe something can be
-worked out. 
+oceanography group in the Department of Earth, Atmosphere and Ocean
+Sciences at the University of British Columbia.
+If you are interested
+in the model check out Susan's publications,
+and if you are interested in collaborating on the code,
+contact Susan and maybe something can be worked out.
 
 .. _Dr. Susan Allen's: http://www.eos.ubc.ca/~sallen/
 
-I did a major refactoring of the codebase during our sabbatical in
-2006 and I continue to provide software engineering support for its
-development, and occasionally work on improvements and new
-features. I maintain the SOG version control repository, and the `SOG
-buildbot`_ cluster that we use for regression testing.
+I did a major refactoring of the codebase during our sabbatical in 2006
+and I continue to provide software engineering support for its development,
+and occasionally work on improvements and new features.
+I maintain the SOG version control repository,
+and the `SOG buildbot`_ cluster that we use for regression testing.
 
 .. _SOG buildbot: http://bjossa.eos.ubc.ca:8010/
 
-SOG is also the concrete, non-trivial example that I use to think
-about and experiment with automated software testing in the context of
-scientific computation. Sadly, apart from the buildbot regression
-testing, I haven't come up with anything that makes me happy enough to
-share.
+SOG is also one of the concrete,
+non-trivial,
+examples that I use to think about and experiment with automated
+software testing in the context of scientific computation.
+Sadly,
+apart from the buildbot regression testing,
+I haven't come up with anything that makes me happy enough to share.
+
+
+Strait of Georgia Bloomcast
+---------------------------
+
+In late 2011 we started running SOG as an operational model to predict the
+first spring bloom in the Strait of Georgia.
+The model is run daily,
+driven by a combination of past actual forcing data and averaged future
+forcing data.
+For a given day's run the meteorological and river flows forcing data
+are collected from Environment Canada web services.
+Those data typically lag the run date by 2 to 4 days.
+The forcing data for the period from the end of the actual past data to the
+end of run are taken from 3 time series collections:
+
+* Averaged values over the 42 year period from 1968 to 2010.
+  Those years were the subject of the spring diatom bloom hindcast study
+  reported in `Allen and Wolfe, 2012`_.
+
+* Data from 1992/93,
+  chosen because 1993 had the earliest predicted bloom in the
+  `Allen and Wolfe, 2012`_ hindcast study.
+
+* Data from 1998/99,
+  chosen because 1999 was tied for the latest predicted bloom in the
+  `Allen and Wolfe, 2012`_ hindcast study.
+
+.. _Allen and Wolfe, 2012: 
+
+The bloomcast results are available at
+http://eos.ubc.ca/~sallen/SoG-bloomcast/resutls.html.
+That page is updated daily between 1-October and 30-April.
+Between 1-May ad 30-September it shows the results of the previous spring's
+bloomcast runs.
+In the course of the 2011/2012 bloomcast prediction runs it was found that
+the correlation algorithm used to transform sky descriptions to cloud fraction
+forcing values was resulting in lower than actual cloud fraction values.
+That caused the predicted bloom date to be too early.
+Work is underway to obtain more accurate cloud fraction forcing data for the
+2012/2013 and future bloomcasts.
+
+The bloomcast driver is written in Python.
+It uses the requests_ library to collect the forcing data from the
+Environment Canada web services.
+The results page is rendered from a Mako_ template.
+It incorporates profile and time series graphs that are created using
+matplotlib_ and rendered as SVG images.
+The HTML and CSS are based on `HTML5 Boilerplate`_.
+
+.. _requests: 
+.. _Mako: 
+.. _matplotlib: 
+.. _HTML5 Boilerplate: http://html5boilerplate.com/
 
 
 Proprietary Projects
@@ -118,7 +177,7 @@ I have developed a number of software tools for my employer, Nordion_:
     routing, and tracking functions with electronic signatures, as
     well as quality system performance metrics, and full-text
     searching. The web application is built on the Pylons_ framework,
-    and CouchDB_ is used to provide the data persistance layer.
+    and CouchDB_ is used to provide the data persistence layer.
 
 .. _Nordion: http://nordion.com/
 .. _TRIUMF: http://www.triumf.ca/
