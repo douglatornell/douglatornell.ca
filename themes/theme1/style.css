@@ -411,7 +411,6 @@ aside li {
 /* Non-blog pages */
 /****************************/
 .page_box {
-
     margin: 20px;
     padding: 20px;
     background: #e3e3e3;
@@ -419,6 +418,17 @@ aside li {
     -moz-border-radius: 5px;
     border-radius: 5px;
     border: 1px solid #ccc;
+}
+.page_box h1, .page_box h2 {
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    font-weight: bold;
+}
+.page_box h1 {
+    font-size: 1.5em;
+}
+.page_box h2 {
+    font-size: 1.2em;
 }
 /****************************/
 /* Fonts */
