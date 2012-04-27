@@ -9,8 +9,6 @@ Ideas for Future Posts
   routes based on discussion with Michael Merickel on pylons-discuss
   list.
 
-* A blogofile rst filter that handles `code` directives.
-
 * Migration of posts from b2evolution to blogofile.
 
 * Add a markup format option to `blogofile blog post create` so that
