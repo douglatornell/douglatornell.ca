@@ -7,7 +7,14 @@
 def nav_class(path):
    render_path = bf.template_context.render_path.rsplit("/index.html")[0]
    if render_path == path or (path == "/" and render_path == "."):
-       return "selected"
+      return "selected"
+   return ""
+%>
+<%
+def blog_nav_class():
+   render_path = bf.template_context.render_path.rsplit("/index.html")[0]
+   if render_path.startswith("/blog") and "archive" not in render_path:
+      return "selected"
    return ""
 %>
     <ul class="theme_font">
@@ -16,7 +23,7 @@ def nav_class(path):
       <li><a href="${bf.util.site_path_helper('projects')}"
              class="${nav_class('projects')}">Projects</a></li>
       <li><a href="${bf.util.site_path_helper(bf.config.blog.path)}"
-             class="${nav_class(bf.util.site_path_helper(bf.config.blog.path))}">Blog</a></li>
+             class="${blog_nav_class()}">Blog</a></li>
       <li><a href="${bf.util.site_path_helper(bf.config.blog.path,'archive')}"
              class="${nav_class(bf.util.site_path_helper(bf.config.blog.path,'archive'))}">Archives</a></li>
     </ul>
