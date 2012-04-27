@@ -4,7 +4,7 @@ Based on http://techspot.zzzeek.org/2010/12/06/my-blogofile-hacks/
 
 This filter works on code embedded using the Docutils literal block
 markup of `::` followed by indentation. The language to use for syntax
-highlighting is specifiedby a `sh-bang` comment at the beginning of
+highlighting is specified by a `sh-bang` comment at the beginning of
 the block. Example::
 
   This is some blog text.  Some code::
@@ -43,8 +43,8 @@ code_block_re = re.compile(
     r"<pre class=\"literal-block\">\n"
     r"(?:#\!(?P<lang>\w+)\n)?"
     r"(?P<code>.*?)"
-    r"</pre>"
-    , re.DOTALL
+    r"</pre>",
+    re.DOTALL
 )
 
 
@@ -63,7 +63,8 @@ def write_pygments_css(style, formatter, location="/css"):
     bf.util.mkdir(path)
     css_path = os.path.join(path, "pygments_" + style + ".css")
     if css_path in css_files_written:
-        return #already written, no need to overwrite it.
+        # already written, no need to overwrite it.
+        return
     with open(css_path, "w") as f:
         f.write(formatter.get_style_defs(".pygments_" + style))
     css_files_written.add(css_path)
