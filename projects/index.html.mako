@@ -6,8 +6,8 @@
  Software Projects
 ===================
 
-Open source projects that I have contributed to (patches, docs, bug
-reports, etc.):
+Open source projects that I have contributed to
+(patches, docs, bug reports, etc.):
 
 * buildbot_
 * contextlib2_
@@ -145,38 +145,52 @@ I have developed a number of software tools for my employer, Nordion_:
 * I-123 Datalogs
     A data logging system that monitors the operation of 3 production
     systems that produce I-123 radio-isotope via proton bombardment of
-    enriched Xe-124 gas. Sensor data and active device states are
-    logged from PLC in a MySQL_ database. A PHP web application
-    provides trend graphs and status reports to users.
+    enriched Xe-124 gas.
+    Sensor data and active device states are logged from PLC in a
+    MySQL_ database.
+    A PHP web application provides trend graphs and status reports to
+    users.
 
 * IsoInfo
-    A web application that provides planning, prediction, and data
-    logging tools for production of Sr-82 via proton spallation of
-    natural Mo targets. An irradiation model and web application
-    implemented in PHP provide tools to plan irradiations to meet
-    production demands, to analyze irradiations in progress, and to
-    provide a basis for production yield calculations. Beam on target
-    data is collected nightly from the TRIUMF_ 500 MeV cyclotron data
-    logging system, stored in a MySQL_ database, and used in
-    conjunction with the planned beam schedule to drive the
-    irradiation model.
+    A web application that provides
+    planning, prediction, and data logging tools
+    for production of Sr-82 via proton spallation of natural Mo
+    targets.
+    An irradiation model and web application implemented in PHP
+    provide tools to plan irradiations to meet production demands,
+    to analyze irradiations in progress,
+    and to provide a basis for production yield calculations.
+    Beam on target data is collected nightly from the TRIUMF_ 500 MeV
+    cyclotron data logging system,
+    stored in a MySQL_ database, and used in conjunction with the
+    planned beam schedule to drive the irradiation model.
 
 * ZSM
     A data logging system that monitors the state of a
-    radio-pharmaceutical manufacturing cleanroom suite. Temperature,
-    humidity, differential pressure, and non-viable particle counter
+    radio-pharmaceutical manufacturing cleanroom suite.
+    Temperature,
+    humidity,
+    differential pressure,
+    and non-viable particle counter
     data are logged from a collection of sensors by a LabVIEW_
-    application and stored a MySQL_ database. A TurboGears_ web
-    application provides trend graphs, alert logging and
-    investigation, and sensor calibration management to users.
+    application and stored a MySQL_ database.
+    A TurboGears_ web application provides
+    trend graphs,
+    alert logging and investigation,
+    and sensor calibration management to users.
 
 * Minerva
     A quality management system web application that manages quality
     system form data in conformance with various standards for
-    pharmaceutical manufacturing. Minerva provides form creation,
-    routing, and tracking functions with electronic signatures, as
-    well as quality system performance metrics, and full-text
-    searching. The web application is built on the Pylons_ framework,
+    pharmaceutical manufacturing.
+    Minerva provides
+    form creation,
+    routing,
+    and tracking functions with electronic signatures,
+    as well as
+    quality system performance metrics,
+    and full-text searching.
+    The web application is built on the Pylons_ framework,
     and CouchDB_ is used to provide the data persistence layer.
 
 .. _Nordion: http://nordion.com/
