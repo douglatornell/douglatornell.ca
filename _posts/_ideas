@@ -1,6 +1,14 @@
 Ideas for Future Posts
 ======================
 
+* Blogofile improvements:
+
+  * Fix ResourceWarning exceptions
+
+  * Add blog.post.default_markup config option to control extension of created
+    post files.
+    Default remains `.markdown`.
+
 * Database table reflection into SQLAlchemy objects in Pyramid based
   on discussion with Jonathan Vanasco on pylons-discuss list and in
   https://gist.github.com/1556734
@@ -11,5 +19,4 @@ Ideas for Future Posts
 
 * Migration of posts from b2evolution to blogofile.
 
-* Add a markup format option to `blogofile blog post create` so that
-  it can create something other than .markdown files.
+* Use of colander to transform SOG infiles.
