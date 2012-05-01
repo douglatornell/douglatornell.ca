@@ -22,7 +22,7 @@ Open source projects that I have contributed to
 .. _buildbot: http://buildbot.net/
 .. _contextlib2: http://contextlib2.readthedocs.org/
 .. _couchdbkit: http://couchdbkit.org/
-.. _Pyramid Documentation: 
+.. _Pyramid Documentation: http://docs.pylonsproject.org/en/latest/docs/pyramid.html
 .. _Python Documentation: http://python.org/
 .. _sphinx: http://sphinx.pocoo.org/
 .. _turbogears 2: http://turbogears.org/2.0/
@@ -99,20 +99,20 @@ end of run are taken from 3 time series collections:
 
 * Averaged values over the 42 year period from 1968 to 2010.
   Those years were the subject of the spring diatom bloom hindcast study
-  reported in `Allen and Wolfe, 2012`_.
+  reported in Allen and Wolfe, 2012 [#]_.
 
 * Data from 1992/93,
   chosen because 1993 had the earliest predicted bloom in the
-  `Allen and Wolfe, 2012`_ hindcast study.
+  Allen and Wolfe, 2012 hindcast study.
 
 * Data from 1998/99,
   chosen because 1999 was tied for the latest predicted bloom in the
-  `Allen and Wolfe, 2012`_ hindcast study.
+  Allen and Wolfe, 2012 hindcast study.
 
-.. _Allen and Wolfe, 2012: 
+.. [#] Allen, S. E. and M. A. Wolfe, in press. Hindcast of the Timing of the Spring Phytoplankton Bloom in the Strait of Georgia, 1968-2010. Prog. Oceanogr. Accepted for publication.
 
 The bloomcast results are available at
-http://eos.ubc.ca/~sallen/SoG-bloomcast/resutls.html.
+http://www.eos.ubc.ca/~sallen/SoG-bloomcast/results.html
 That page is updated daily between 1-October and 30-April.
 Between 1-May ad 30-September it shows the results of the previous spring's
 bloomcast runs.
@@ -131,9 +131,9 @@ It incorporates profile and time series graphs that are created using
 matplotlib_ and rendered as SVG images.
 The HTML and CSS are based on `HTML5 Boilerplate`_.
 
-.. _requests: 
-.. _Mako: 
-.. _matplotlib: 
+.. _requests: http://pypi.python.org/pypi/requests
+.. _Mako: http://pypi.python.org/pypi/Mako/
+.. _matplotlib: http://matplotlib.sourceforge.net/
 .. _HTML5 Boilerplate: http://html5boilerplate.com/
 
 
