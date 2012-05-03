@@ -60,7 +60,7 @@ This feature is in `pull request 8`_.
 .. _pull request 8: https://github.com/EnigmaCurry/blogofile_blog/pull/8
 
 I really like Blogofile
-an using it's plugins branch was my spur to get serious about using
+and using it's plugins branch was my spur to get serious about using
 Python 3 and blogging again.
 So, I'm really happy to see @EnigmaCurry accepting pull requests again
 on the project. Hooray!!
