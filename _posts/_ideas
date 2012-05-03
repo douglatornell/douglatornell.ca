@@ -1,14 +1,6 @@
 Ideas for Future Posts
 ======================
 
-* Blogofile improvements:
-
-  * Fix ResourceWarning exceptions
-
-  * Add blog.post.default_markup config option to control extension of created
-    post files.
-    Default remains `.markdown`.
-
 * Database table reflection into SQLAlchemy objects in Pyramid based
   on discussion with Jonathan Vanasco on pylons-discuss list and in
   https://gist.github.com/1556734
