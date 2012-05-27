@@ -10,8 +10,10 @@ Open source projects that I have contributed to
 (patches, docs, bug reports, etc.):
 
 * buildbot_
+* blogofile_
 * contextlib2_
 * couchdbkit_
+* `Mozilla Add-on SDK`_
 * `Pyramid Documentation`_
 * `Python Documentation`_
 * sphinx_
@@ -20,8 +22,10 @@ Open source projects that I have contributed to
 * webtest_
 
 .. _buildbot: http://buildbot.net/
+.. _blogofile: http://blogofile.com/
 .. _contextlib2: http://contextlib2.readthedocs.org/
 .. _couchdbkit: http://couchdbkit.org/
+.. _Mozilla Add-on SDK: https://addons.mozilla.org/en-US/developers/builder
 .. _Pyramid Documentation: http://docs.pylonsproject.org/en/latest/docs/pyramid.html
 .. _Python Documentation: http://python.org/
 .. _sphinx: http://sphinx.pocoo.org/
