@@ -16,4 +16,6 @@
   <link rel="openid2.provider" href="https://www.google.com/accounts/o8/ud?source=profiles">
   <link rel="openid2.local_id" href="http://www.google.com/profiles/djlatornell">
 
+  <meta name="bitly-verification" content="2df6afc07963">
+
   <script src="${bf.util.site_path_helper('js/libs/modernizr-2.5.3.min.js')}"></script>
