@@ -10,7 +10,7 @@ Georges Dubus has created `pyramid_persona`_, a nice library to integrate
 `Mozilla Persona`_ authentication into Pyramid_ projects.
 He also wrote a tutorial `blog post`_ explaining the basics of how to use
 the library.
-In principle is should be easy to go from what Georges has written to getting
+In principle it should be easy to go from what Georges has written to getting
 Persona-based authentication fully integrated with group or object level
 authorization in a Pyramid project,
 but it took some head scratching for me to do that.
@@ -23,12 +23,15 @@ excellent work...
 .. _blog post: http://compiletoi.net/quick-authentication-on-pyramid-with-persona.html
 
 By the way,
-`pyramid_persona`_ is also a really nice example of advanced configuration
-tactics in Pyramid_ that show off the framework's plug-in friendliness.
+`pyramid_persona`_ is also a really nice example of `advanced configuration
+tactics`_ in Pyramid that show off the framework's plug-in friendliness.
 
-Before diving is, I should also mention that Michael Merickel's authentication/authorization tutorial is an indispensable reference.
+.. _advanced configuration tactics: http://docs.pylonsproject.org/projects/pyramid_cookbook/en/latest/configuration/whirlwind_tour.html
 
-.. _authentication/authorization tutorial: http://michael.merickel.org/projects/pyramid_auth_demo/
+Before diving is, I should also mention that Michael Merickel's
+authentication and authorization tutorial is an indispensable reference.
+
+.. _authentication and authorization tutorial: http://michael.merickel.org/projects/pyramid_auth_demo/
 
 **The Goal:** The example I'm going to use is a very simple group-level authorization one.
 We'll create a site with a public side that anyone can interact with,
@@ -95,14 +98,14 @@ Persona in place of ``me@example.com``.
 Now it's time to create some templates and views for the admin site of our
 site.
 These pages are almost verbatim from Georges' `blog post`_ or the
-`pyramid_persona` README - he really has done most of the heavy lifting!
+`pyramid_persona`_ README - he really has done most of the heavy lifting!
 We start with a stub for the admin home page in ``templates/admin_home.mako``::
 
-  #!mako
+  #!html
   <html>
   <head>
       <script type="text/javascript"
-              src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js">
+        src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js">
       </script>
       <script src="https://login.persona.org/include.js"></script>
       <script >${request.persona_js}</script>
@@ -139,7 +142,7 @@ There are obviously some opportunities to use template inheritance here,
 to say nothing of the total absence of styling in those templates.
 
 Moving along to the views that render those templates, we create
-``admin_views.py`` and put in it::
+``admin_views.py`` containing::
 
   #!python
   from pyramid.renderers import render
@@ -150,12 +153,10 @@ Moving along to the views that render those templates, we create
       view_config,
       )
 
-
   @forbidden_view_config()
   def admin_signin(request):
       body = render('admin_signin.mako', {}, request=request)
       return Response(body, status='403 Forbidden')
-
 
   @view_config(
       route_name='admin.home',
@@ -166,7 +167,7 @@ Moving along to the views that render those templates, we create
       return {'userid': userid}
 
 The ``admin_signin`` function renders our ``admin_signin.mako`` template
-and packages it up as a 403 Forbidden response.
+and packages it up as a ``403 Forbidden`` response.
 That function is decorated with ``@forbidden_view_config()`` so that it will
 replace the default forbidden view that `pyramid_persona`_ supplies.
 That's how we get our sign-in page to appear when an unauthenticated user
@@ -222,7 +223,7 @@ Now let's hook everything together via the configuration in the
 We add our resource tree to the ``Configurator`` constructor call::
 
   #!python
-    config = Configurator(settings=settings, root_factory=Root)
+  config = Configurator(settings=settings, root_factory=Root)
 
 as well as including the `pyramid_persona`_ configuration,
 and overriding its authentication policy setting with our own that hooks in
@@ -245,7 +246,7 @@ It's time to test!
 Install our app to get all of the dependencies installed,
 initialize the database with the handy
 ``initialize_pyramid_persona_group_auth_demo_db`` command that Pyramid
-created for us,
+creates for us during installation of an ``alchemy`` scaffold app,
 and start the server::
 
   #!sh
@@ -268,7 +269,7 @@ home page of our site:
 
 
 And that's all there is to it!
-Extending the site security to a more fine-grained group-level system,
+Extending the site security to a more fine-grained group-level hierachy,
 or to object-level security should be relatively easy with the guidance
 in Michael Merickel's `authentication/authorization tutorial`_.
 
