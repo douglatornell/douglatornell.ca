@@ -1,9 +1,9 @@
 ---
 title: Pyramid, Persona & Group-Level Auth
-permalink: http://douglatornell.ca/blog/2012/10/22/pyramid-persona-group-level-auth
-date: 2012/10/22 18:18:22
-categories: python, pyramid, persona authentication
-guid: b'-HaGt_O0KbEovGwN5paEs4k4HGw='
+permalink: http://douglatornell.ca/blog/2012/10/27/pyramid-persona-group-level-auth
+date: 2012/10/27 10:07:23
+categories:
+guid: b'cx5sLz1WT8Z0yhZSAzbNEQnwxl8='
 ---
 
 Georges Dubus has created `pyramid_persona`_, a nice library to integrate
@@ -29,7 +29,7 @@ tactics`_ in Pyramid that show off the framework's plug-in friendliness.
 .. _advanced configuration tactics: http://docs.pylonsproject.org/projects/pyramid_cookbook/en/latest/configuration/whirlwind_tour.html
 
 Before diving is, I should also mention that Michael Merickel's
-authentication and authorization tutorial is an indispensable reference.
+`authentication and authorization tutorial`_ is an indispensable reference.
 
 .. _authentication and authorization tutorial: http://michael.merickel.org/projects/pyramid_auth_demo/
 
@@ -85,6 +85,7 @@ To do that, import ``Administrator`` into ``scripts/initializedb.py``
 and add a couple of lines to the end of the ``main`` function in that file::
 
   #!python
+  from ..models import Administrator
   ...
   with transaction.manager:
       model = MyModel(name='one', value=1)
@@ -102,38 +103,48 @@ These pages are almost verbatim from Georges' `blog post`_ or the
 We start with a stub for the admin home page in ``templates/admin_home.mako``::
 
   #!html
+  <!DOCTYPE html>
   <html>
   <head>
-      <script type="text/javascript"
-        src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js">
-      </script>
-      <script src="https://login.persona.org/include.js"></script>
-      <script >${request.persona_js}</script>
+    <script type="text/javascript"
+      src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js">
+    </script>
+    <script src="https://login.persona.org/include.js"></script>
+    <script >${request.persona_js}</script>
   </head>
   <body>
-      <h1>Pyramid Persona Group Auth Demo Admin</h1>
-      Welcome to the admin side, ${userid}
-      ${request.persona_button}
+    <h1>Pyramid Persona Group Auth Demo Admin</h1>
+    Welcome to the admin side, ${userid}
+    ${request.persona_button}
   </body>
   </html>
 
 All we've done here is hooked into Persona, and set up a welcome message and
 a sign-out button in lieu of any real admin interface content and funtionality.
 
+The ``request.person_js`` and ``request.persona_button`` attributes are
+available thanks to ``config.set_request_property()`` calls in
+``pyramid_persona.__init__.py``.
+Recall that I mentioned what a nice example
+of advanced Pyramid configuration ``pyramid_persona`` is -
+it's well worth reading Georges' code to learn how he has made things so
+easy for the rest of us.
+
 We'll also create a very similar looking template for our sign-in page in
 ``templates/admin_signin.mako``::
 
-  #!mako
+  #!html
+  <!DOCTYPE html>
   <html>
   <head>
-      <script type="text/javascript"
-              src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js">
-      </script>
-      <script src="https://login.persona.org/include.js"></script>
-      <script >${request.persona_js}</script>
+    <script type="text/javascript"
+      src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js">
+    </script>
+    <script src="https://login.persona.org/include.js"></script>
+    <script >${request.persona_js}</script>
   </head>
   <body>
-    <h1>Pyramid Persona Group Auth Demo Admin</h1>
+  <h1>Pyramid Persona Group Auth Demo Admin</h1>
     ${request.persona_button}
   </body>
   </html>
@@ -180,16 +191,16 @@ the ``@view_config`` decorator.
 Finally, we add our security policy to
 ``pyramid_persona_group_auth_demo/__init__.py`` and add our admin home page
 view to the route map.
-We need 4 new imports::
+We need some new imports::
 
   #!python
   from pyramid.authentication import AuthTktAuthenticationPolicy
   from pyramid.security import ALL_PERMISSIONS
   from pyramid.security import Allow
   from sqlalchemy.orm.exc import NoResultFound
+  from .model import Administrator
 
-and we also need to import our ``Administrator`` model.
-We need a dirt simple resource tree to provide the access control list
+Then we add a dirt simple resource tree to provide the access control list
 that implements our security policy; i.e. any user in the ``admin`` group
 has full access to admin resources::
 
@@ -255,23 +266,34 @@ and start the server::
   (ppga)$ initialize_pyramid_persona_group_auth_demo_db development.ini
   (ppga)$ pserve --reload development.ini
 
-Browsing to ``http://localhost:6543/admin`` should show you the admin
+Browsing to ``http://localhost:6543`` should show you the default Pyramid
+app page - that's the public side of our site.
+
+Going to ``http://localhost:6543/admin`` should show you the admin
 sign-in page:
 
+.. image:: ../../../../../images/2012-10-27-admin_signin.png
+   :width: 600px
+
 and, if you inspect the requests and responses with your browser's web dev
-tools, you'll see that we got the expected ``403 Forbidden`` response.
+tools, you'll see that we got the expected ``403 Forbidden`` response status.
 
 Clicking the sign-in button pops the ``login.persona.org`` site in a new
 window with our site name and audience domain displayed:
 
+.. image:: ../../../../../images/2012-10-27-persona.png
+   :width: 600px
+
 And, upon successfully signing in at Persona, we are redirected to the admin
 home page of our site:
 
+.. image:: ../../../../../images/2012-10-27-admin_page.png
+   :width: 600px
 
 And that's all there is to it!
 Extending the site security to a more fine-grained group-level hierachy,
 or to object-level security should be relatively easy with the guidance
-in Michael Merickel's `authentication/authorization tutorial`_.
+in Michael Merickel's `authentication and authorization tutorial`_.
 
 The source code for the demo I've created here is available on Bitbucket at
 http://...
