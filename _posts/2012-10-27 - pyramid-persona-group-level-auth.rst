@@ -296,7 +296,7 @@ or to object-level security should be relatively easy with the guidance
 in Michael Merickel's `authentication and authorization tutorial`_.
 
 The source code for the demo I've created here is available on Bitbucket at
-http://...
+https://bitbucket.org/douglatornell/pyramid_persona_group_auth_demo
 
 Thanks again to Georges Dubus for making this easy with the `pyramid_persona`_
 library, and to Mozilla for creating Persona.
