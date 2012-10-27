@@ -2,7 +2,7 @@
 title: Pyramid, Persona & Group-Level Auth
 permalink: http://douglatornell.ca/blog/2012/10/27/pyramid-persona-group-level-auth
 date: 2012/10/27 10:07:23
-categories:
+categories: python, pyramid, persona authentication
 guid: b'cx5sLz1WT8Z0yhZSAzbNEQnwxl8='
 ---
 
