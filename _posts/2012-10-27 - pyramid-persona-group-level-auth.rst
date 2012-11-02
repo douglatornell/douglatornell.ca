@@ -74,7 +74,7 @@ Next up, we add an ``Administrator`` class to our ``models.py`` file::
   class Administrator(Base):
       __tablename__ = 'admins'
       id = Column(Integer, primary_key=True)
-      persona_email = Column(Text, unique=True)
+      persona_email = Column(Text, index=True, unique=True)
 
       def __init__(self, persona_email):
           self.persona_email = persona_email
@@ -198,7 +198,7 @@ We need some new imports::
   from pyramid.security import ALL_PERMISSIONS
   from pyramid.security import Allow
   from sqlalchemy.orm.exc import NoResultFound
-  from .model import Administrator
+  from .models import Administrator
 
 Then we add a dirt simple resource tree to provide the access control list
 that implements our security policy; i.e. any user in the ``admin`` group
@@ -300,3 +300,10 @@ https://bitbucket.org/douglatornell/pyramid_persona_group_auth_demo
 
 Thanks again to Georges Dubus for making this easy with the `pyramid_persona`_
 library, and to Mozilla for creating Persona.
+
+**Updated 2012-11-02**
+
+* Fixed typo in ``import`` statement for Administrator model.
+  Thanks ppaez!
+* Added index on ``persona_email`` column of Administrator model.
+  Thanks Georges Dubus!
