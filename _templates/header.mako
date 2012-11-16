@@ -20,12 +20,12 @@ def blog_nav_class():
     <ul class="theme_font">
       <li><a href="${bf.util.site_path_helper()}"
              class="${nav_class(bf.util.site_path_helper())}">Home</a></li>
-      <li><a href="${bf.util.site_path_helper('projects')}"
+      <li><a href="${bf.util.site_path_helper('projects', trailing_slash=True)}"
              class="${nav_class('projects')}">Projects</a></li>
-      <li><a href="${bf.util.site_path_helper(bf.config.blog.path)}"
+      <li><a href="${bf.util.site_path_helper(bf.config.blog.path, trailing_slash=True)}"
              class="${blog_nav_class()}">Blog</a></li>
       <li><a href="${bf.util.site_path_helper(bf.config.blog.path,'archive')}"
-             class="${nav_class(bf.util.site_path_helper(bf.config.blog.path,'archive'))}">Archives</a></li>
+             class="${nav_class(bf.util.site_path_helper(bf.config.blog.path, 'archive', trailing_slash=True))}">Archives</a></li>
     </ul>
   </div>
 </header>
