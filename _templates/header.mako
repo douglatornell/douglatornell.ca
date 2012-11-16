@@ -24,8 +24,8 @@ def blog_nav_class():
              class="${nav_class('projects')}">Projects</a></li>
       <li><a href="${bf.util.site_path_helper(bf.config.blog.path, trailing_slash=True)}"
              class="${blog_nav_class()}">Blog</a></li>
-      <li><a href="${bf.util.site_path_helper(bf.config.blog.path,'archive')}"
-             class="${nav_class(bf.util.site_path_helper(bf.config.blog.path, 'archive', trailing_slash=True))}">Archives</a></li>
+      <li><a href="${bf.util.site_path_helper(bf.config.blog.path, 'archive', trailing_slash=True)}"
+             class="${nav_class(bf.util.site_path_helper(bf.config.blog.path, 'archive'))}">Archives</a></li>
     </ul>
   </div>
 </header>
