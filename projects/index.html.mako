@@ -14,6 +14,7 @@ Open source projects that I have contributed to
 * contextlib2_
 * couchdbkit_
 * `Mozilla Add-on SDK`_
+* pymodbus_
 * `Pyramid Documentation`_
 * `Python Documentation`_
 * sphinx_
@@ -26,6 +27,7 @@ Open source projects that I have contributed to
 .. _contextlib2: http://contextlib2.readthedocs.org/
 .. _couchdbkit: http://couchdbkit.org/
 .. _Mozilla Add-on SDK: https://addons.mozilla.org/en-US/developers/builder
+.. _pymodbus: https://github.com/bashwork/pymodbus/
 .. _Pyramid Documentation: http://docs.pylonsproject.org/en/latest/docs/pyramid.html
 .. _Python Documentation: http://python.org/
 .. _sphinx: http://sphinx.pocoo.org/
