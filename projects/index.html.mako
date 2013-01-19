@@ -69,6 +69,16 @@ SOG Coupled Biology & Physics Model of Deep Estuaries
 SOG is a research model developed by `Dr. Susan Allen's`_ coastal
 oceanography group in the Department of Earth, Atmosphere and Ocean
 Sciences at the University of British Columbia.
+The model is a vertical,
+one-dimensional,
+coupled physics-biology model for deep estuaries.
+It is a local model of the lower trophic-level ecology and
+carbon/oxygen/nitrogen cycles that is based on a simplified,
+but accurate,
+physical model of coastal regions.
+SOG is being used to investigate the processes that determine primary
+productivity and carbon fluxes.
+
 If you are interested
 in the model check out Susan's publications,
 and if you are interested in collaborating on the code,
