@@ -162,6 +162,25 @@ The HTML and CSS are based on `HTML5 Boilerplate`_.
 .. _HTML5 Boilerplate: http://html5boilerplate.com/
 
 
+SOG Command Processor
+---------------------
+
+Another SOG-related project that I have recently implemented is a command
+processor wrapper written in Python.
+The current release of the tool provides an automated input file editing
+feature that simplifies the preparation of large collections of runs for
+sensitivity analyses,
+genetic algorithm parameters optimization,
+etc.
+This has enabled SOG users to craft batch run programs that execute in excess
+of 100 runs in 24 hours on a cluster of multi-core Linux workstations.
+Future plans for the SOG command processor include automating the execution of
+batch runs,
+initially on a per-workstation basis,
+but ultimately providing queue manager and worker functionality to
+automatically distribute batch runs across the workstation cluster.
+
+
 Proprietary Projects
 ====================
 
