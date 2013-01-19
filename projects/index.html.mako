@@ -41,6 +41,9 @@ Open source projects that I have contributed to
    :alt: Ohloh profile for dlatornell
    :target: https://www.ohloh.net/accounts/147609?ref=Tiny
 
+My Bitbucket account is https://bitbucket.org/douglatornell/
+and my Github account is https://github.com/douglatornell/
+
 
 Personal Projects That I Have Released
 ======================================
