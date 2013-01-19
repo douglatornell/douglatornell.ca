@@ -81,6 +81,17 @@ Personal Projects That I Have Released
   .. _Django project repo: https://bitbucket.org/douglatornell/randopony/
 
 
+* pyramid_persona_group_auth_demo_
+
+    The source code for a `blog post`_ I wrote about using Mozilla Persona for
+    authentication in a Pyramid web framework application with a SQL database
+    as its persistence layer.
+
+    .. _pyramid_persona_group_auth_demo: https://bitbucket.org/douglatornell/pyramid_persona_group_auth_demo
+    .. _blog post: http://douglatornell.ca/blog/2012/10/27/pyramid-persona-group-level-auth
+
+
+
 blogofile and blogofile_blog
 ============================
 
