@@ -49,17 +49,36 @@ Personal Projects That I Have Released
 ======================================
 
 * nosy_
-    Run the nose test discovery and execution tool whenever a
-    source file is changed (`nosy repository on bitbucket`_)
+    Run the nose_ test discovery and execution tool whenever a
+    source file is changed
+    (`nosy repo on Bitbucket`_)
+
+  .. _nose: https://nose.readthedocs.org/
+  .. _nosy: http://douglatornell.ca/software/python/Nosy/
+  .. _nosy repo on Bitbucket: https://bitbucket.org/douglatornell/nosy/
 
 * randopony_
-    A Django project for online data management activities
-    for the BC Randonneurs Cycling Club (`randopony repository on bitbucket`_)
+    ``RandoPony`` is a web application that manages on-line pre-registrations for
+    marathon cycling events run by the BC Randonneurs Cycling Club.
+    "The pony" maintains online lists of riders that have pre-registered for
+    each event,
+    sends email confirmations of pre-registration to rider,
+    and email notifications to event organizers.
+    It also interfaces with Google Drive to build a rider list spreadsheet as
+    pre-registrations come in.
+    Originally implemented in Django_,
+    ``RandoPony`` is now a Pyramid_/SQLAlchemy_ project.
 
-.. _nosy: http://douglatornell.ca/software/python/Nosy/
-.. _nosy repository on bitbucket: https://bitbucket.org/douglatornell/nosy/overview
-.. _randopony: http://randopony.sadahome.ca/
-.. _randopony repository on bitbucket: https://bitbucket.org/douglatornell/randopony/overview
+    `Django project repo`_
+
+    `Pyramid/SQLAlchemy project repo`_
+
+  .. _randopony: http://randopony.randonneurs.bc.ca/
+  .. _Django: https://www.djangoproject.com/
+  .. _Pyramid: http://www.pylonsproject.org/
+  .. _SQLAlchemy: http://www.sqlalchemy.org/
+  .. _Pyramid/SQLAlchemy project repo: https://bitbucket.org/douglatornell/randopony-tetra/
+  .. _Django project repo: https://bitbucket.org/douglatornell/randopony/
 
 
 blogofile and blogofile_blog
