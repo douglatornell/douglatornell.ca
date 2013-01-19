@@ -126,12 +126,17 @@ http://www.eos.ubc.ca/~sallen/SoG-bloomcast/results.html
 That page is updated daily between 1-October and 30-April.
 Between 1-May ad 30-September it shows the results of the previous spring's
 bloomcast runs.
+
 In the course of the 2011/2012 bloomcast prediction runs it was found that
 the correlation algorithm used to transform sky descriptions to cloud fraction
 forcing values was resulting in lower than actual cloud fraction values.
 That caused the predicted bloom date to be too early.
-Work is underway to obtain more accurate cloud fraction forcing data for the
-2012/2013 and future bloomcasts.
+That issue has been addressed with a new cloud fraction mapping that is based
+on an analysis of weather descriptions and cloud fraction values reported by
+Environment Canada over the 2002 through 2011 period.
+
+The bloomcast driver has recently been modified to take advantage of multi-core
+processors by running the 3 model calculations concurrently.
 
 The bloomcast driver is written in Python.
 It uses the requests_ library to collect the forcing data from the
