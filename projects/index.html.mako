@@ -92,8 +92,48 @@ Personal Projects That I Have Released
 
 
 
-blogofile and blogofile_blog
+Blogofile and blogofile_blog
 ============================
+
+I am the lead maintainer for the Blogofile_ project,
+a role I assumed when the project's creator lost interest in continued
+development of Blogofile,
+but the user community refused to let the project die.
+Blogofile is a static web site builder with roots in the creation of blog
+sites.
+It provides a way of building dynamic feeling web sites (like blogs) that
+don't require a database or other complex computing infrastructure.
+Blogofile sites can be served from most hosting providers.
+Because the sites that Blogofile produces are composed of static web pages
+they avoid most of the security vulnerabilities of dynamic site tools like
+Wordpress.
+Blogofile sites require minimal maintenance,
+freeing their owners to focus on content creation and other fun things in
+life.
+
+When I took on the lead maintainer role Blogofile was in the midst of being
+transformed to a core and plug-ins architecture.
+I completed enough of that work to get to the `0.8b1 release of Blogfile`_ and
+the blog creation functionality as a reference plugin implementation,
+`blogofile_blog`_.
+Significant features of that work were:
+
+* Unification of the codebase for Python 2.6, 2.7 and 3.2
+  (no 2to3 or 3to2 conversion required).
+
+* Moving the project documentation source files have been moved into the project
+  repository.
+  They are built and rendered at http://docs.blogofile.com/ thanks to
+  the readthedocs.org service.
+
+* Refactoring of the configuration system,
+  and the site initialization syntax and functionality.
+
+* Improved Unicode handling in several areas,
+  with the help of Blogofile's increasingly international user community.
+
+.. _0.8b1 release of Blogfile: http://pypi.python.org/pypi/Blogofile/
+.. _blogofile_blog: http://pypi.python.org/pypi/blogofile_blog/
 
 
 SOG Coupled Biology & Physics Model of Deep Estuaries
