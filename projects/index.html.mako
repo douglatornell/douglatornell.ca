@@ -11,6 +11,7 @@ Open source projects that I have contributed to
 
 * buildbot_
 * blogofile_
+* colander_
 * contextlib2_
 * couchdbkit_
 * `Mozilla Add-on SDK`_
@@ -24,6 +25,7 @@ Open source projects that I have contributed to
 
 .. _buildbot: http://buildbot.net/
 .. _blogofile: http://blogofile.com/
+.. _colander: http://docs.pylonsproject.org/projects/colander/
 .. _contextlib2: http://contextlib2.readthedocs.org/
 .. _couchdbkit: http://couchdbkit.org/
 .. _Mozilla Add-on SDK: https://addons.mozilla.org/en-US/developers/builder
