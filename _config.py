@@ -68,4 +68,5 @@ blog.post.default_markup = 'rst'
 blog.post.default_filters = {
     "rst": "rst, syntax_highlight"
 }
+filters.syntax_highlight.css_dir = "css"
 filters.syntax_highlight.style = "default"
