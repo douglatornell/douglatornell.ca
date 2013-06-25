@@ -17,13 +17,17 @@ Two config file settings are required to make this filter work::
   blog.post.default_filters = {
       "rst": "rst, syntax_highlight"
   }
+  filters.syntax_highlight.css_dir = "css"
   filters.syntax_highlight.style = "default"
 
 The first causes blogofile to translate the rst source to HTML first,
 and then run the syntax_highlight filter. That's oposite to the
 default order.
 
-The second specifies the pygments style to use.
+The second specifies the directory in which the pygments style file will
+be found.
+
+The third specifies the pygments style to use.
 """
 import blogofile_bf as bf
 from mako.filters import html_entities_unescape
