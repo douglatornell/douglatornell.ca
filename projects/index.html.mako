@@ -61,6 +61,17 @@ Personal Projects That I Have Released
   .. _nosy: http://douglatornell.ca/software/python/Nosy/
   .. _nosy repo on Bitbucket: https://bitbucket.org/douglatornell/nosy/
 
+
+* pyramid_persona_group_auth_demo_
+
+    The source code for a `blog post`_ I wrote about using Mozilla Persona for
+    authentication in a Pyramid web framework application with a SQL database
+    as its persistence layer.
+
+    .. _pyramid_persona_group_auth_demo: https://bitbucket.org/douglatornell/pyramid_persona_group_auth_demo
+    .. _blog post: http://douglatornell.ca/blog/2012/10/27/pyramid-persona-group-level-auth
+
+
 * randopony_
     ``RandoPony`` is a web application that manages on-line pre-registrations for
     marathon cycling events run by the BC Randonneurs Cycling Club.
@@ -83,17 +94,6 @@ Personal Projects That I Have Released
   .. _SQLAlchemy: http://www.sqlalchemy.org/
   .. _Pyramid/SQLAlchemy project repo: https://bitbucket.org/douglatornell/randopony-tetra/
   .. _Django project repo: https://bitbucket.org/douglatornell/randopony/
-
-
-* pyramid_persona_group_auth_demo_
-
-    The source code for a `blog post`_ I wrote about using Mozilla Persona for
-    authentication in a Pyramid web framework application with a SQL database
-    as its persistence layer.
-
-    .. _pyramid_persona_group_auth_demo: https://bitbucket.org/douglatornell/pyramid_persona_group_auth_demo
-    .. _blog post: http://douglatornell.ca/blog/2012/10/27/pyramid-persona-group-level-auth
-
 
 
 Blogofile and blogofile_blog
