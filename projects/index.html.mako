@@ -96,6 +96,15 @@ Personal Projects That I Have Released
   .. _Django project repo: https://bitbucket.org/douglatornell/randopony/
 
 
+* `SOG Command Processor and Documentation`_
+
+    The source code for the command processor and documentation for the
+    `SOG Coupled Biology & Physics Model of Deep Estuaries`_.
+    See `SOG Command Processor`_ for more details.
+
+  .. _SOG Command Processor and Documentation: https://bitbucket.org/douglatornell/sog
+
+
 * `sublime-sphinx-completion`_
 
     A collection of `Sublime Text`_ completions for reStructuredText_
