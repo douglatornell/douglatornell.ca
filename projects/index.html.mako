@@ -19,6 +19,7 @@ Open source projects that I have contributed to
 * `Pyramid Documentation`_
 * `Python Documentation`_
 * sphinx_
+* `sublime-rst-completion`_
 * `turbogears 2`_
 * virtualenvwrapper_
 * webtest_
@@ -33,6 +34,7 @@ Open source projects that I have contributed to
 .. _Pyramid Documentation: http://docs.pylonsproject.org/en/latest/docs/pyramid.html
 .. _Python Documentation: http://python.org/
 .. _sphinx: http://sphinx.pocoo.org/
+.. _sublime-rst-completion: https://github.com/dbousamra/sublime-rst-completion
 .. _turbogears 2: http://turbogears.org/2.0/
 .. _virtualenvwrapper: http://www.doughellmann.com/projects/virtualenvwrapper/
 .. _webtest: http://pythonpaste.org/webtest/
