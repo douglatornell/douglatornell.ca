@@ -96,6 +96,17 @@ Personal Projects That I Have Released
   .. _Django project repo: https://bitbucket.org/douglatornell/randopony/
 
 
+* `sublime-sphinx-completion`_
+
+    A collection of `Sublime Text`_ completions for reStructuredText_
+    interpreted text roles defined by the Sphinx_ documentation tool for
+    inline semantic markup.
+
+  .. _sublime-sphinx-completion: https://github.com/douglatornell/sublime-sphinx-completion
+  .. _reStructuredText: http://docutils.sourceforge.net/rst.html
+  .. _Sublime Text: http://www.sublimetext.com/
+
+
 Blogofile and blogofile_blog
 ============================
 
