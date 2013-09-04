@@ -23,8 +23,8 @@ model radio-isotope production processes using `SciPy`_, and create
 database-driven web applications for monitoring and analyzing
 production process data.  I started out using `PHP`_ for those
 projects, but more recently have been using `Python`_ and a succession
-of web frameworks (`TurboGears`_, Pylons_, Pyramid_, ...). My current
-project is a radio-isotope production process model integrated with a
+of web frameworks (`TurboGears`_, Pylons_, Pyramid_, ...). My most recent
+project was a radio-isotope production process model integrated with a
 process data logging system to predict theoretical isotope activity
 for yield calculations based on actual irradiation conditions. Please
 have a look at my projects_ page for more detailed descriptions of
@@ -50,7 +50,7 @@ living in Brittany.  We blogged about the experience at
 .. _biophysical model of the Strait of Georgia: http://www.stratogem.ubc.ca/
 .. _sadahome.ca/blogs/paradocs.php: http://sadahome.ca/blogs/paradocs.php
 
-These days, I blog about technical stuff (mostly Python-related) on
+I blog about technical stuff (mostly Python-related) on
 `this site`_, and about food and life in general at
 `sadahome.ca/blogs/adventures.php`_. I also try to photograph
 beautiful and interesting things, as well as keeping an image record
