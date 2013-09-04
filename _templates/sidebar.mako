@@ -20,7 +20,7 @@
             <tr>
               <td id="flickr_icon_td" width="10">
                 <a href="http://www.flickr.com/photos/sada_images/">
-                  <img id="flickr_badge_icon" alt="Susan &amp;amp; Doug's Adventures' items" src="http://farm1.staticflickr.com/67/buddyicons/69997344@N00.jpg?1152777511#69997344@N00" align="left" width="48" height="48">
+                  <img id="flickr_badge_icon" alt="Susan &amp;amp; Doug's Adventures' items" src="http://farm6.staticflickr.com/5538/buddyicons/69997344@N00_r.jpg?1371705782" align="left" width="48" height="48">
                 </a>
               </td>
               <td id="flickr_badge_source_txt">
