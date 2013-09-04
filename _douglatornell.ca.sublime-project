@@ -5,5 +5,14 @@
 			"follow_symlinks": true,
 			"path": "/Users/doug/Sites/webfaction/douglatornell.ca"
 		}
-	]
+	],
+    "build_systems":
+    [
+        {
+            "name": "blogofile",
+            "working_dir": "${project_path}",
+            "shell_cmd": "~/.virtualenvs/douglatornell.ca/bin/blogofile -v build",
+            "selector": "source.mako, text.restructuredtext"
+        }
+    ]
 }
