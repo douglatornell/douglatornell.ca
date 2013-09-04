@@ -18,6 +18,20 @@ director for the 2004 `Rocky Mtn 1200`_ and I `rode the Rocky`_ in 2008.
 .. _Rocky Mtn 1200: http://randonneurs.bc.ca/rockymountain1200/
 .. _rode the Rocky: http://www.flickr.com/photos/bcrandonneurs/2725459921/in/set-72157606507546843/
 
+Since July of 2013 I have been on leave from `Nordion`_ while I work with my
+physicist/mathematician/oceanographer wife, `Prof. Susan Allen`_, in the
+'Department of Earth, Ocean, and Atmostpheric Sciences`_ at UBC.
+I'm working with her as a `research software engineer`_ on a variety of
+projects mostly focused on implementing "operational" deployments of
+computational oceanographic models to do daily predictions and calculations
+about the circulation and biogeochemistry of the ocean on the west coast of
+Canada and in the Canadian Arctic.
+
+.. _Nordion: http://nordion.com/
+.. _Prof. Susan Allen: http://www.eos.ubc.ca/~sallen/
+.. _Department of Earth, Ocean, and Atmostpheric Sciences: http://eos.ubc.ca/
+.. _research software engineer: http://dirkgorissen.com/2012/09/13/the-research-software-engineer/
+
 I work for `Nordion`_ where I manage projects, do mechanical design,
 model radio-isotope production processes using `SciPy`_, and create
 database-driven web applications for monitoring and analyzing
@@ -30,7 +44,6 @@ for yield calculations based on actual irradiation conditions. Please
 have a look at my projects_ page for more detailed descriptions of
 that project and others.
 
-.. _Nordion: http://nordion.com/
 .. _SciPy: http://www.scipy.org/
 .. _PHP: http://www.php.net/
 .. _Python: http://www.python.org/
@@ -39,14 +52,12 @@ that project and others.
 .. _Pyramid: http://docs.pylonsproject.org/en/latest/docs/pyramid.html
 .. _projects: projects/
 
-In 2006 I spent 6 months on sabbatical with my
-physicist/mathematician/oceanographer wife, `Dr. Susan Allen`_, living
-in St-Renan, near Brest in France.  We worked on Susan's `biophysical
+In 2006 I spent 6 months on sabbatical leave with Susan living
+in St-Renan, near Brest, in France.  We worked on Susan's `biophysical
 model of the Strait of Georgia`_, cycled lots, and **really** enjoyed
 living in Brittany.  We blogged about the experience at
 `sadahome.ca/blogs/paradocs.php`_.
 
-.. _Dr. Susan Allen: http://www.eos.ubc.ca/~sallen/
 .. _biophysical model of the Strait of Georgia: http://www.stratogem.ubc.ca/
 .. _sadahome.ca/blogs/paradocs.php: http://sadahome.ca/blogs/paradocs.php
 
