@@ -32,16 +32,20 @@ Canada and in the Canadian Arctic.
 .. _Department of Earth, Ocean, and Atmostpheric Sciences: http://eos.ubc.ca/
 .. _research software engineer: http://dirkgorissen.com/2012/09/13/the-research-software-engineer/
 
-I work for `Nordion`_ where I manage projects, do mechanical design,
-model radio-isotope production processes using `SciPy`_, and create
-database-driven web applications for monitoring and analyzing
-production process data.  I started out using `PHP`_ for those
-projects, but more recently have been using `Python`_ and a succession
-of web frameworks (`TurboGears`_, Pylons_, Pyramid_, ...). My most recent
-project was a radio-isotope production process model integrated with a
-process data logging system to predict theoretical isotope activity
-for yield calculations based on actual irradiation conditions. Please
-have a look at my projects_ page for more detailed descriptions of
+At `Nordion`_ I manage projects, do mechanical design, and model
+radio-isotope production processes in support of manufacturing medical
+isotopes for diagnostic imaging and cancer therapy.
+I use `SciPy`_ to model proton bombardment of target materials to produce
+useful isotope products.
+I also create database-driven web applications for monitoring and analyzing
+production process data.
+I started out using `PHP`_ for those projects, but more recently have been
+using `Python`_ and a succession of web frameworks (`TurboGears`_, Pylons_,
+Pyramid_, ...).
+My most recent project was a radio-isotope production process model integrated
+with a process data logging system to predict theoretical isotope activity
+for yield calculations based on actual irradiation conditions.
+Please have a look at my projects_ page for more detailed descriptions of
 that project and others.
 
 .. _SciPy: http://www.scipy.org/
