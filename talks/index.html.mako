@@ -6,6 +6,18 @@
  Talks
 =======
 
+* I gave talk entitled "Bloomcast - Python Facilitating Operational
+  Oceanography" at PyCon.ca 2013 in Toronto.
+  (It was an "invited" lightening talk.
+  That conference was one of the regional PyCons that prototyped the change
+  from signing up for lightening talks at the conference to submitting
+  proposals for them.)
+  The video is on `pyvideo.org`_ and YouTube_ and the `slide deck`_ is on speakerdeck.com.
+
+.. _pyvideo.org: http://pyvideo.org/video/2336/bloomcast-python-facilitating-operational-ocean
+.. _YouTube: http://www.youtube.com/watch?v=Ieshkd7RmrM
+.. _slide deck: https://speakerdeck.com/pyconca/bloomcast-python-facilitating-operational-oceanography-doug-latornell
+
 * Susan invited me to give a seminar on Version Control to the
   Physical Oceanography Group at UBC. I gave Google Docs Presentation
   a try for the slides_ and was pretty happy with the results.
