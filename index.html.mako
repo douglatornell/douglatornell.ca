@@ -82,10 +82,10 @@ Other things the might be of interest on this site (and beyond):
 .. _software projects: projects/
 .. _some talks: talks/
 
-You can contact me by email using ``djl`` ``douglatornell`` and
-``ca``, with the appropriate punctuation. On Twiter I'm `@dlatornell`_
-and I also use `Google+`_.
+You can contact me by email at `djl@douglatornell.ca`_.
+On Twiter I'm `@dlatornell`_ and I also use `Google+`_.
 
+.. _djl@douglatornell.ca: mailto://djl@douglatornell.ca
 .. _@dlatornell: http://twitter.com/#!/dlatornell
 .. _Google+: https://profiles.google.com/djlatornell/
 
