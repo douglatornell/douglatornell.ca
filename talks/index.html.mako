@@ -6,6 +6,13 @@
  Talks
 =======
 
+* During a sabbattical trip to the Netherlands in March of 2014 I gave a lunchtime seminar on software version control and automation in the Faculty of Civil Engineering and Geosciences (CiTG) at the Delft University of Technology.
+  The slides__ are shared publicly on Google Drive and there is also a `PDF version of them`_.
+
+  __ TUDelft-slides_
+  .. _TUDelft-slides: https://docs.google.com/presentation/d/1RcG15u9-aMqzIbkF13ygSND-imVaSt3F89hDHEd10iI
+  .. _PDF version of them: TUDelft/SoftwareVersionControlAndAutomation-TUDelft.pdf
+
 * I gave talk entitled "Bloomcast - Python Facilitating Operational
   Oceanography" at PyCon.ca 2013 in Toronto.
   (It was an "invited" lightening talk.
@@ -18,11 +25,11 @@
 .. _YouTube: http://www.youtube.com/watch?v=Ieshkd7RmrM
 .. _slide deck: https://speakerdeck.com/pyconca/bloomcast-python-facilitating-operational-oceanography-doug-latornell
 
-* Susan invited me to give a seminar on Version Control to the
-  Physical Oceanography Group at UBC. I gave Google Docs Presentation
-  a try for the slides_ and was pretty happy with the results.
+* Susan invited me to give a seminar on Version Control to the Physical Oceanography Group at UBC in October of 2010.
+  I gave Google Docs Presentation a try for the slides__ and was pretty happy with the results.
 
-.. _slides: https://docs.google.com/present/view?id=dc7bfwc4_50dsrmxb83
+__ PhysOcgy-slides_
+.. _PhysOcgy-slides: https://docs.google.com/present/view?id=dc7bfwc4_50dsrmxb83
 
 * I talked about PyYAML_, flickrapi_, and TkInter_ in the context of
   my (as yet unreleased) LivingPics desktop image display app at the
