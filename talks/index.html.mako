@@ -6,6 +6,17 @@
  Talks
 =======
 
+* I gave a talk to the `Canadian Centre for Climate Modelling and Analysis`_ (CCCma) Python users group about version control,
+  Git,
+  Python as a glue and tools language for earth sciences modeling research,
+  and visualization of model reaults.
+  This talk was my first experiment with a reveal.js slide deck `generated from an IPython notebook`_.
+  Here are `the slides`_.
+
+.. _Canadian Centre for Climate Modelling and Analysis: http://www.ec.gc.ca/ccmac-cccma/
+.. _generated from an IPython notebook: http://ipython.org/ipython-doc/rel-1.0.0/interactive/nbconvert.html
+.. _the slides: CCCmaJun2014/CCCma-PythonGroupSeminar-23Jun2014.slides.html
+
 * At the Canadian Meteorological and Oceanographic Society (CMOS) `2014 congress`_ in Rimouski I presented a talk entitled "Software Collaboration Tools and the Salish Sea MEOPAR Project".
   Here is the `PDF slide deck`_.
 
