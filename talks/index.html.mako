@@ -6,6 +6,12 @@
  Talks
 =======
 
+* At the Canadian Meteorological and Oceanographic Society (CMOS) `2014 congress`_ in Rimouski I presented a talk entitled "Software Collaboration Tools and the Salish Sea MEOPAR Project".
+  Here is the `PDF slide deck`_.
+
+  .. _2014 congress: http://www.cmos.ca/congress2014/index.php/en/
+  .. _PDF slide deck: CMOS2014/CMOS-SoftwareCollab.pdf
+
 * During a sabbattical trip to the Netherlands in March of 2014 I gave a lunchtime seminar on software version control and automation in the Faculty of Civil Engineering and Geosciences (CiTG) at the Delft University of Technology.
   The slides__ are shared publicly on Google Drive and there is also a `PDF version of them`_.
 
