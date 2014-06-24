@@ -3163,33 +3163,23 @@ In&nbsp;[]:
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="shell-script-and-cron-job">Shell Script and Cron Job</h1>
-</div>
-</div>
-</div><div class="fragment">
-    
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
+<p>Shell script to run SoG-bloomcast:</p>
 <pre><code># cron script to run SoG-bloomcast
 #
 # make sure that this file has mode 744
 # and that MAILTO is set in crontab
 VENV=/data/dlatorne/.virtualenvs/bloomcast
 RUN_DIR=/data/dlatorne/SOG-projects/SoG-bloomcast/run
-. $VENV/bin/activate &amp;&amp; cd $RUN_DIR &amp;&amp; \
-   $VENV/bin/bloomcast config.yaml
-   
-MAILTO=dlatornell@eos.ubc.ca
+. $VENV/bin/activate &amp;&amp; cd $RUN_DIR &amp;&amp; $VENV/bin/bloomcast config.yaml</code></pre>
+<p>Cron entry to trigger the script daily:</p>
+<pre><code>MAILTO=dlatornell@eos.ubc.ca
    
 BLOOMCAST_DIR=/data/dlatorne/SOG-projects/SoG-bloomcast
 # m h  dom mon dow   command
   0 9   *   *   *    $BLOOMCAST_DIR/cronjob.sh</code></pre>
 </div>
 </div>
-</div>
-    </div></section>
+</div></section>
     </section><section>
     <section>
     
