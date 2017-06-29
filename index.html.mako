@@ -20,7 +20,7 @@ director for the 2004 `Rocky Mtn 1200`_ and I `rode the Rocky`_ in 2008.
 
 Since July of 2013 I have been on leave from `Nordion`_ while I work with my
 physicist/mathematician/oceanographer wife, `Prof. Susan Allen`_, in the
-'Department of Earth, Ocean, and Atmostpheric Sciences`_ at UBC.
+`Department of Earth, Ocean, and Atmostpheric Sciences`_ at UBC.
 I'm working with her as a `research software engineer`_ on a variety of
 projects mostly focused on implementing "operational" deployments of
 computational oceanographic models to do daily predictions and calculations
