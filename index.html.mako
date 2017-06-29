@@ -14,7 +14,7 @@ I'm a marathon cyclist with the `BC Randonneurs Cycling Club`_ and in
 director for the 2004 `Rocky Mtn 1200`_ and I `rode the Rocky`_ in 2008.
 
 .. _BC Randonneurs Cycling Club: http://randonneurs.bc.ca/
-.. _Paris-Brest-Paris: http://www.paris-brest-paris.org/EN/
+.. _Paris-Brest-Paris: https://en.wikipedia.org/wiki/Paris-Brest-Paris
 .. _Rocky Mtn 1200: http://randonneurs.bc.ca/rockymountain1200/
 .. _rode the Rocky: http://www.flickr.com/photos/bcrandonneurs/2725459921/in/set-72157606507546843/
 
