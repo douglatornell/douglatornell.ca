@@ -16,7 +16,7 @@ director for the 2004 `Rocky Mtn 1200`_ and I `rode the Rocky`_ in 2008.
 .. _BC Randonneurs Cycling Club: http://randonneurs.bc.ca/
 .. _Paris-Brest-Paris: https://en.wikipedia.org/wiki/Paris-Brest-Paris
 .. _Rocky Mtn 1200: http://randonneurs.bc.ca/rockymountain1200/
-.. _rode the Rocky: http://www.flickr.com/photos/bcrandonneurs/2725459921/in/set-72157606507546843/
+.. _rode the Rocky: https://www.flickr.com/photos/bcrandonneurs/2725459921/in/set-72157606507546843/
 
 Since July of 2013 I have been on leave from `Nordion`_ while I work with my
 physicist/mathematician/oceanographer wife, `Prof. Susan Allen`_, in the
@@ -27,10 +27,10 @@ computational oceanographic models to do daily predictions and calculations
 about the circulation and biogeochemistry of the ocean on the west coast of
 Canada and in the Canadian Arctic.
 
-.. _Nordion: http://nordion.com/
-.. _Prof. Susan Allen: http://www.eos.ubc.ca/~sallen/
-.. _Department of Earth, Ocean, and Atmostpheric Sciences: http://eos.ubc.ca/
-.. _research software engineer: http://dirkgorissen.com/2012/09/13/the-research-software-engineer/
+.. _Nordion: http://www.nordion.com/
+.. _Prof. Susan Allen: https://www.eoas.ubc.ca/~sallen/
+.. _Department of Earth, Ocean, and Atmostpheric Sciences: https://www.eoas.ubc.ca/
+.. _research software engineer: https://dirkgorissen.com/2012/09/13/the-research-software-engineer/
 
 At `Nordion`_ I manage projects, do mechanical design, and model
 radio-isotope production processes in support of manufacturing medical
@@ -48,12 +48,12 @@ for yield calculations based on actual irradiation conditions.
 Please have a look at my projects_ page for more detailed descriptions of
 that project and others.
 
-.. _SciPy: http://www.scipy.org/
-.. _PHP: http://www.php.net/
-.. _Python: http://www.python.org/
+.. _SciPy: https://www.scipy.org/
+.. _PHP: https://php.net/
+.. _Python: https://www.python.org/
 .. _TurboGears: http://turbogears.org/
 .. _Pylons: http://pylonshq.com/
-.. _Pyramid: http://docs.pylonsproject.org/en/latest/docs/pyramid.html
+.. _Pyramid: https://trypyramid.com/
 .. _projects: projects/
 
 In 2006 I spent 6 months on sabbatical leave with Susan living
@@ -74,7 +74,7 @@ of our travels. I post the images at
 
 .. _this site: blog/
 .. _sadahome.ca/blogs/adventures.php: http://sadahome.ca/blogs/adventures.php
-.. _flickr.com/photos/sada_images/: http://www.flickr.com/photos/sada_images/
+.. _flickr.com/photos/sada_images/: https://www.flickr.com/photos/sada_images/
 
 At home, I manage our network of `OpenBSD`_ and Mac computers, try to
 stay on top of maintenance and wheelbuilding for our fleet of
@@ -82,10 +82,10 @@ bicycles, and cook (a lot more frequently since we `renovated our
 kitchen`_).  I also hack on a variety of personal projects in Python
 'cause it's `so much fun`_ and `so elegant`_.
 
-.. _OpenBSD: http://www.openbsd.org/
-.. _so much fun: http://xkcd.com/353/
-.. _renovated our kitchen: http://www.flickr.com/photos/sada_images/sets/72157618929678421/
-.. _so elegant: http://www.python.org/dev/peps/pep-0020/
+.. _OpenBSD: https://www.openbsd.org/
+.. _renovated our kitchen: https://www.flickr.com/photos/sada_images/sets/72157618929678421/
+.. _so much fun: https://xkcd.com/353/
+.. _so elegant: https://www.python.org/dev/peps/pep-0020/
 
 Other things the might be of interest on this site (and beyond):
 
@@ -101,7 +101,7 @@ You can contact me by email at `djl@douglatornell.ca`_.
 On Twiter I'm `@dlatornell`_ and I also use `Google+`_.
 
 .. _djl@douglatornell.ca: mailto://djl@douglatornell.ca
-.. _@dlatornell: http://twitter.com/#!/dlatornell
+.. _@dlatornell: https://twitter.com/dlatornell
 .. _Google+: https://profiles.google.com/djlatornell/
 
 </%self:filter>
