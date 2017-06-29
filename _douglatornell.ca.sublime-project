@@ -3,7 +3,7 @@
 	[
 		{
 			"follow_symlinks": true,
-			"path": "/Users/doug/Sites/webfaction/douglatornell.ca"
+			"path": "/home/doug/warehouse/douglatornell.ca"
 		}
 	],
     "build_systems":
@@ -11,7 +11,7 @@
         {
             "name": "blogofile",
             "working_dir": "${project_path}",
-            "shell_cmd": "~/.virtualenvs/douglatornell.ca/bin/blogofile -v build",
+            "shell_cmd": "/home/doug/warehouse/conda_envs/douglatornell.ca/bin/blogofile -v build",
             "selector": "source.mako, text.restructuredtext"
         }
     ]
